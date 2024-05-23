@@ -1,3 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.toggle-container{
+    width: 60%;
+    height: 64px;
+    background-color: beige;
+}
+
+.box-container{
+    width: 40%;
+    height: 64px;
+    background-color: rgb(64, 64, 64);
+}

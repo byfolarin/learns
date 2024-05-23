@@ -1,15 +1,20 @@
 import {} from 'react'
 import './App.css'
-import Navbar from './Navbar'
-import Header from './Header'
-import Card from './Card'
+import InputList from './components/InputList'
+import InputField from './components/InputField'
+import Toggle from './components/Toggle'
+
 
 const App = () => {
   return (
     <>
-    <Header/>
-    <Navbar/>
-    <Card/>
+   
+   <div className="container">
+   <InputField />
+    <Toggle />
+   </div>
+    <InputList />
+
     </>
   )
 }
