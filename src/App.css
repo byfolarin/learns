@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(252, 167, 56);
+    background-color: white;
 }
 
 .body {
@@ -11,9 +11,10 @@ body {
     margin-top: 30px;
     align-items: flex-start;
     color: white;
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(222, 213, 213);
     min-width: 600px;
     padding: 20px;
+    border-radius: 42px;
 }
 
 .check {
@@ -77,6 +78,7 @@ body {
 }
 
 header {
+    align-items: center;
     margin-bottom: 30px;
     text-align: center;
     font-size: 2rem;
@@ -92,13 +94,13 @@ select {
     appearance: none;
     cursor: pointer;
     width: 120px;
-    height: 20px;
+    height: 35px;
 }
 
 .select::after {
     content: "\25BC";
     position: absolute;
-    background-color: red;
+    background-color: rgb(225, 225, 225);
     right: 0;
     bottom: 0;
     pointer-events: none;
