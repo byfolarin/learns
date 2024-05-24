@@ -1,6 +1,6 @@
 import React from 'react'
 
-const InputField = () => {
+const FormInput = () => {
   return (
 
     <div className='box-container'>
@@ -12,4 +12,4 @@ const InputField = () => {
   )
 }
 
-export default InputField
+export default FormInput

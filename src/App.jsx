@@ -1,8 +1,8 @@
 import {} from 'react'
 import './App.css'
-import InputList from './components/InputList'
-import InputField from './components/InputField'
-import Toggle from './components/Toggle'
+import InputList from './components/TodoList'
+import InputField from './components/FormInput'
+import Toggle from './components/Todo'
 
 
 const App = () => {
