@@ -12,10 +12,8 @@ function App() {
         <header>
           <h1>Todo-List</h1>
         </header>
-        <FormInput 
-        />
-
-        <TodoList />
+        <FormInput/>
+        <TodoList/>
       </div>
     </div>
   );

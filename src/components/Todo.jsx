@@ -1,13 +1,12 @@
 import React from 'react'
 
-const Toggle = () => {
+const Todo = () => {
   return (
     <div className='toggle-container'>
-
                 <div className="box-toogle"></div>
 
     </div>
   )
 }
 
-export default Toggle
+export default Todo

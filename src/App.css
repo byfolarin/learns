@@ -11,14 +11,14 @@ body {
     margin-top: 30px;
     align-items: flex-start;
     color: white;
-    background-color: rgb(222, 213, 213);
+    background-color: rgb(180, 176, 176);
     min-width: 600px;
     padding: 20px;
     border-radius: 42px;
 }
 
 .check {
-    background-color: rgb(59, 204, 59);
+    background-color: rgb(33, 215, 33);
     height: 30px;
     width: 30px;
     display: flex;
