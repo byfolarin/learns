@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import FormInput from './components/FormInput';
+import Form from './components/Form';
 import TodoList from './components/TodoList';
 
 
@@ -11,7 +11,7 @@ function App() {
         <header>
           <h1>Todo List</h1>
         </header>
-        <FormInput/>
+        <Form/>
         <TodoList/>
       </div>
   );
