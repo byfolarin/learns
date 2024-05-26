@@ -6,7 +6,11 @@ const inputTextHandler = (e) =>{
   setInputText(e.target.value)
 }
 
-const textHandler(){
+const textHandler = (e) =>{
+  setInputText(e.target.value)
+}
+
+function expression (){
   
 }
 
