@@ -6,9 +6,6 @@ const inputTextHandler = (e) =>{
   setInputText(e.target.value)
 }
 
-const textHandler = (e) =>{
-  setInputText(e.target.value)
-}
 
   return (
     <div>
