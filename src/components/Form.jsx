@@ -6,6 +6,10 @@ const inputTextHandler = (e) =>{
   setInputText(e.target.value)
 }
 
+const textHandler(){
+  
+}
+
   return (
     <div>
       <form>
