@@ -10,10 +10,6 @@ const textHandler = (e) =>{
   setInputText(e.target.value)
 }
 
-function expression (){
-  
-}
-
   return (
     <div>
       <form>
