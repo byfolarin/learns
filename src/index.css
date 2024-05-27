@@ -5,6 +5,19 @@
     
 }
 
+.shift{
+    margin: 0 102px;
+
+}
+
+.light{
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 
 .toggle-container{
     width: 60%;
