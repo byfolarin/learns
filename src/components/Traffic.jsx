@@ -1,35 +1,34 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react';
 
-// Traffic Light:
-// Create a component for a traffic light that can be in three states: "red", "yellow", and "green". Use state to manage the current light color and buttons to change between them.
+function Traffic() {
+  const [isRedOn, setIsRedOn] = useState(true);
+  const [isYellowOn, setIsYellowOn] = useState(false);
+  const [isGreenOn, setIsGreenOn] = useState(false);
 
-const Traffic = () => {
-    const [color, setColor] = useState('red'); // Current color (string)
-
-
-    function handleClicks(){
-        switch(color){
-        case 'red':
-        setColor('yellow');
-        break;
-        case 'yellow':
-        setColor('green');
-        break;
-        default:
-        setColor('red'); // Reset to red from green
-        }
+  const handleClick = () => {
+    // Update states based on current state
+    if (isRedOn) {
+      setIsRedOn(false);
+      setIsYellowOn(true);
+    } else if (isYellowOn) {
+      setIsYellowOn(false);
+      setIsGreenOn(true);
+    } else {
+      setIsGreenOn(false);
+      setIsRedOn(true);
     }
-
+  };
 
   return (
     <div>
+      <button onClick={handleClick}>Change Light</button>
       <div>
-    <h2>Color: {color}</h2>
-    <button onClick={handleClicks}>Click</button>
-  </div>
+        <div style={{ backgroundColor: isRedOn ? 'red' : 'gray' }}></div>
+        <div style={{ backgroundColor: isYellowOn ? 'yellow' : 'gray' }}></div>
+        <div style={{ backgroundColor: isGreenOn ? 'green' : 'gray' }}></div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Traffic
+export default Traffic;

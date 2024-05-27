@@ -4,6 +4,7 @@ import Form from './components/Form';
 import TodoList from './components/TodoList';
 import Thermostat from './components/Thermostat';
 import Traffic from './components/Traffic';
+import ToDoItem from './components/TodoItem';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <TodoList/>
         <Thermostat/>
         <Traffic/>
+        <ToDoItem text={"What's up bro"}/>
       </div>
   );
 }
