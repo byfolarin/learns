@@ -3,14 +3,16 @@ import { useState } from 'react'
 
 const Button = () => {
 
- const [time, setTime] = useState(true)
+ const [time, setTime] = useState(false)
 
-
+ const handleClick=()=>{
+    setTime(!time)
+ }
 
   return (
     <div className='shift'>
-      <button className='light'>Toggle</button>
-      <h2>The light is: </h2>
+      <button onClick={handleClick} className='light'>Toggle</button>
+      <h2>The light is: {time ? "On" : "Off"} </h2>
     </div>
   )
 }
