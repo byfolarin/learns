@@ -20,7 +20,7 @@ function App() {
         <TodoList/>
         <Thermostat/>
         <Traffic/>
-        <ToDoItem text={"What's up bro"}/>
+        <ToDoItem text={"What's up bro Nigga"}/>
       </div>
   );
 }
