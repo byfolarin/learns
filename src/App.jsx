@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import Form from './components/Form';
 import TodoList from './components/TodoList';
-import Button from './components/Button';
+import Thermostat from './components/Thermostat';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         </header>
         <Form setInputText ={setInputText} inputText={inputText}/>
         <TodoList/>
-        <Button/>
+        <Thermostat/>
       </div>
   );
 }
