@@ -9,7 +9,7 @@ const Thermostat = () => {
 
  return (
   <div>
-    <h2>Temperature: {temperature}°C</h2>
+    <h2>Temperature Today: {temperature}°C</h2>
     <button onClick={increment}>+</button>
     <button onClick={decrement}>-</button>
   </div>

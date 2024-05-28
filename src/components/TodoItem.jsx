@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function ToDoItem({ text }) {
+function ToDoItem() {
   const [completed, setCompleted] = useState(false);
 
   const toggleCompleted = () => setCompleted(!completed);
@@ -8,7 +8,7 @@ function ToDoItem({ text }) {
   return (
     <div>
       <input type="checkbox" checked={completed} onChange={toggleCompleted} />
-      <span>{text}</span>
+      <span></span>
     </div>
   );
 }
