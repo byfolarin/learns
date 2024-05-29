@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Form = () => {
+const Form = ({list,setList}) => {
 
   const [text, setText] = useState("");
 
@@ -9,6 +9,7 @@ const Form = () => {
   }
 
 
+  
   return (
     <div>
       <form>
