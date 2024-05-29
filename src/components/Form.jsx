@@ -8,7 +8,7 @@ const Form = ({list,setList}) => {
     setText(e.target.value)
   }
 
-  const newUpdate = () =>{
+  const upDateList = () =>{
     setList((prevList) => [...prevList, text]);
     setText("");
   }
@@ -19,7 +19,7 @@ const Form = ({list,setList}) => {
       <form>
       <input onChange={text} type="text" className="todo-input" />
 
-      <button onClick={newUpdate} className="todo-button" type="submit">
+      <button onClick={upDateList} className="todo-button" type="submit">
         <i className="fas fa-plus-square"></i>
       </button>
 
