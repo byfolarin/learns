@@ -1,23 +1,32 @@
 import React, { useState } from 'react'
 
-const Form = ({list,setList}) => {
+const Form = ({text,setText,list,setList,setStatus}) => {
 
-  const [text, setText] = useState("");
-
+ 
   const textChange = (e) =>{
     setText(e.target.value)
   }
 
   const upDateList = () =>{
-    setList((prevList) => [...prevList, text]);
+    setList((allItems) => 
+      {
+      return[...allItems, 
+      {text: text, 
+      completed: false,
+      id: Math.random() * 1000}]
+    }
+  )
     setText("");
   }
 
+    const changeStatus = (e) => {
+        setStatus(e.target.value)
+    }
 
   return (
     <div>
       <form>
-      <input onChange={text} type="text" className="todo-input" />
+      <input onChange={textChange} type="text" value={text} className="todo-input" />
 
       <button onClick={upDateList} className="todo-button" type="submit">
         <i className="fas fa-plus-square"></i>
@@ -25,8 +34,7 @@ const Form = ({list,setList}) => {
 
       <div className="select">
 
-        <select name="todos" className="filter-todo">
-
+        <select name="todos" onChange={changeStatus} className="filter-todo">
           <option value="all">All</option>
           <option value="completed">Completed</option>
           <option value="uncompleted">Uncompleted</option>

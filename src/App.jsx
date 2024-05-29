@@ -8,27 +8,27 @@ import { useState } from 'react';
 function App() {
 
   const [list, setList] = useState([]);
-  const [input, setInput] = useState("");
+  const [text, setText] = useState("");
   const [status, setStatus] = useState("all")
   const [filteredTodos, setFilteredTodos] = useState([])
 
 
   
-  // function filterHandler(){
-  //   switch(status){
-  //     case 'completed':
-  //       setFilteredTodos(list.filter((todo) => todo.completed === true))
-  //       break;
+  function filterHandler(){
+    switch(status){
+      case 'completed':
+        setFilteredTodos(list.filter((todo) => todo.completed === true))
+        break;
 
-  //     case 'uncompleted':
-  //       setFilteredTodos(list.filter((todo) => todo.completed === false))
-  //       break;
+      case 'uncompleted':
+        setFilteredTodos(list.filter((todo) => todo.completed === false))
+        break;
 
-  //     default:
-  //       setFilteredTodos(list)
-  //       break;
-  //   }
-  // }
+      default:
+        setFilteredTodos(list)
+        break;
+    }
+  }
 
  
   return (
