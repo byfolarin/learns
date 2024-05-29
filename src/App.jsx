@@ -6,7 +6,6 @@ import ToDoItem from './components/TodoItem';
 
 function App() {
 
-
  
   return (
       <div className="App">
