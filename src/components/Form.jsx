@@ -16,6 +16,7 @@ const Form = ({input,setinput,list,setList,setStatus}) => {
       id: Math.random() * 1000}]
     }
   )
+  
     setinput("");
   }
 
