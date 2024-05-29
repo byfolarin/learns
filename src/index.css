@@ -30,3 +30,12 @@
     height: 64px;
     background-color: rgb(64, 64, 64);
 }
+
+button{
+    padding: 4px 16px;
+}
+
+.lumps{
+    display: flex;
+    gap: 4px;
+}
