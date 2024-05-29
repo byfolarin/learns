@@ -8,14 +8,18 @@ const Form = ({list,setList}) => {
     setText(e.target.value)
   }
 
+  const newUpdate = () =>{
+    setList((prevList) => [...prevList, text]);
+    setText("");
+  }
 
-  
+
   return (
     <div>
       <form>
-      <input onChange={textChange} type="text" className="todo-input" />
+      <input onChange={text} type="text" className="todo-input" />
 
-      <button className="todo-button" type="submit">
+      <button onClick={newUpdate} className="todo-button" type="submit">
         <i className="fas fa-plus-square"></i>
       </button>
 
