@@ -1,14 +1,13 @@
 import React from 'react'
 
 const TodoList = () => {
+
   return (
-    <>
-      <div className="todo-container">
-      <ul className="todo-list">
-        
-      </ul>
-    </div>
-    </>
+      <div>
+          <ul className='tasks-list'>
+            
+          </ul>
+      </div>
   )
 }
 
