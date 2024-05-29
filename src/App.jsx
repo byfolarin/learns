@@ -8,7 +8,7 @@ import { useState } from 'react';
 function App() {
 
   const [list, setList] = useState([]);
-  const [text, setText] = useState("");
+  const [input, setInput] = useState("");
   const [status, setStatus] = useState("all")
   const [filteredTodos, setFilteredTodos] = useState([])
 

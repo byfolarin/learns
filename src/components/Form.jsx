@@ -1,22 +1,22 @@
 import React, { useState } from 'react'
 
-const Form = ({text,setText,list,setList,setStatus}) => {
+const Form = ({input,setinput,list,setList,setStatus}) => {
 
  
   const textChange = (e) =>{
-    setText(e.target.value)
+    setinput(e.target.value)
   }
 
   const upDateList = () =>{
     setList((allItems) => 
       {
       return[...allItems, 
-      {text: text, 
+      {text: input, 
       completed: false,
       id: Math.random() * 1000}]
     }
   )
-    setText("");
+    setinput("");
   }
 
     const changeStatus = (e) => {
@@ -26,7 +26,7 @@ const Form = ({text,setText,list,setList,setStatus}) => {
   return (
     <div>
       <form>
-      <input onChange={textChange} type="text" value={text} className="todo-input" />
+      <input onChange={textChange} type="text" value={input} className="todo-input" />
 
       <button onClick={upDateList} className="todo-button" type="submit">
         <i className="fas fa-plus-square"></i>
