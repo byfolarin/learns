@@ -1,10 +1,17 @@
 import React from 'react'
 
-const TodoItem = () => {
+const TodoItem = ({input,setInput}) => {
+
+const getInput = () =>{
+    setInput((e) =>{
+        e.target.value
+    })
+}
+
   return (
     <div className='sets-on'>
         <div className="container">
-              <input type="text" className='form-input' name="" id="" />
+              <input type="text" onChange={getInput} className='form-input' name="" id="" />
                 <div className='add-to-list'> <i className='fas fa-plus'></i>
         </div>
         </div>
