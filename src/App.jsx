@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import TodoItem from './components/TodoItem';
+import TodoList from './components/TodoList';
 
 
 
@@ -10,6 +11,7 @@ function App() {
   const [input, setInput] = useState("");
   const [list, setList] = useState("");
   const [status, setStatus] = useState("");
+  const [filteredTodos, setFilteredTodos] = useState([])
 
  
   return (
@@ -22,6 +24,12 @@ function App() {
         status = {status}
         setStatus = {setStatus}
         />
+
+        <TodoList 
+         list = {list}
+         setList = {setList}
+         filteredTodos = {filteredTodos}
+         />
       </div>
   );
 }

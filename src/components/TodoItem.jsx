@@ -10,8 +10,11 @@ const getInput = (e) =>{
 const addToList = () => {
     if (input.trim() !== "") {
         setList((allItems) => {
-            return [...allItems, { text: input, completed: false, id: Math.random().toString(36).substr(2, 9) }];
-        });
+            return [...allItems,
+                 {   text: input,
+                     completed: false,
+                     id: Math.random() * 1000 }];
+                 });
         setInput("");
     }
 };
