@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TodoItem = ({input,setInput}) => {
+const TodoItem = ({input,setInput,list,setList}) => {
 
 const getInput = () =>{
     setInput((e) =>{
@@ -8,11 +8,18 @@ const getInput = () =>{
     })
 }
 
+function addToList() {
+    setList((allItems) => {
+        return[...allItems, {text: input, completed: false, id: Math.random() * 1000}]
+    })
+    setInput("")
+}
+
   return (
     <div className='sets-on'>
         <div className="container">
-              <input type="text" onChange={getInput} className='form-input' name="" id="" />
-                <div className='add-to-list'> <i className='fas fa-plus'></i>
+              <input type="text" onChange={getInput} value={input} className='form-input'/>
+                <div onClick={addToList} className='add-to-list'> <i className='fas fa-plus'></i>
         </div>
         </div>
 
