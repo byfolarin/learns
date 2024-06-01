@@ -1,19 +1,21 @@
 import React from 'react'
 
-const TodoItem = ({input,setInput,list,setList}) => {
+const TodoItem = ({ input, setInput, list, setList, setStatus }) => {
 
-const getInput = () =>{
-    setInput((e) =>{
-        e.target.value
-    })
+const getInput = (e) =>{
+    setInput(e.target.value)
 }
 
-function addToList() {
-    setList((allItems) => {
-        return[...allItems, {text: input, completed: false, id: Math.random() * 1000}]
-    })
-    setInput("")
-}
+
+const addToList = () => {
+    if (input.trim() !== "") {
+        setList((allItems) => {
+            return [...allItems, { text: input, completed: false, id: Math.random().toString(36).substr(2, 9) }];
+        });
+        setInput("");
+    }
+};
+
 
 const changeStatus = (e) =>{
    setStatus(e.target.value)
@@ -35,7 +37,7 @@ const changeStatus = (e) =>{
                     <option value='completed'>Completed</option>
                     <option value='uncompleted'>Uncompleted</option>
                 </select>
-                
+
         </div>
 
     </div>
