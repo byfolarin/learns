@@ -1,24 +1,14 @@
-// import React from 'react'
-// import Todo from './Todo'
+import React from 'react'
 
-// const TodoList = ({list,setList,filteredTodos}) => {
+const TodoList = ({list,filteredTodos}) => {
 
-//     console.log(list)
+    console.log(list)
 
-//   return (
-//     <div>
-//        <ul className='tasks-list'>
-//                 {filteredTodos.map((task) => {
-//                     return <Todo 
-//                         text={task.text}
-//                         task={task}
-//                         key={task.id}
-//                         setList={setList}
-//                     />
-//                 })}
-//             </ul>
-//     </div>
-//   )
-// }
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
-// export default TodoList
+export default TodoList

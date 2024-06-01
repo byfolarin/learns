@@ -33,10 +33,12 @@ form button {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 form button:hover {
   background: #ff6f47;
   color: white;
 }
+
 .todo-container {
   display: flex;
   justify-content: center;

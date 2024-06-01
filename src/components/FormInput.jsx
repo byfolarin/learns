@@ -1,11 +1,21 @@
 import React from 'react'
 
-const FormInput= ({input,setInput,setStatus}) => {
+const FormInput= ({input,setInput,setStatus,setList}) => {
 
-const text = (e) =>{
+const inputText = (e) =>{
     setInput(e.target.value)
 }
 
+
+const addList = () =>
+{
+   setList((i) =>{ return [...i,
+    {text: input, 
+    completed: false, 
+    id: Math.random() * 1000}
+]})
+   setInput("")
+}
 
 
 const updatedSelect=(e)=>{
@@ -13,21 +23,18 @@ const updatedSelect=(e)=>{
 }
 
 
-
   return (
     <div>
-
-
     <form>
 
-      <input type="text" value={input} onChange={text} class="todo-input" />
-      <button class="todo-button" type="submit">
+      <input type="text" value={input} onChange={inputText} class="todo-input" />
+      <button class="todo-button" onClick={addList} type="submit">
         <i class="fas fa-plus-square"></i>
       </button>
 
 
       <div class="select">
-        <select name="todos" onChange={setStatus} class="filter-todo">
+        <select name="todos" onChange={updatedSelect} class="filter-todo">
           <option value="all">All</option>
           <option value="completed">Completed</option>
           <option value="uncompleted">Uncompleted</option>
@@ -36,7 +43,6 @@ const updatedSelect=(e)=>{
     </form>
     </div>
 
-    
   )
 }
 
