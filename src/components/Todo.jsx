@@ -2,18 +2,6 @@ import React from 'react'
 
 export default function Todo({text, task, setList }) {
 
-    function deleteHandler(){
-        setList((i) => i.filter((todo) => todo.id !== task.id))
-    }
-
-    function completeHandler(){
-        setList(prevValue => prevValue.map((todo) => {
-            if(task.id === todo.id){
-                return {...todo, completed: !todo.completed}
-            }
-            return todo;
-        }))
-    }
 
   return (
     <div>
