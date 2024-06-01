@@ -1,35 +1,30 @@
 import { useState } from 'react';
 import './App.css';
-import TodoItem from './components/TodoItem';
-import TodoList from './components/TodoList';
+import FormInput from './components/FormInput';
+
 
 
 
 
 function App() {
 
-  const [input, setInput] = useState("");
-  const [list, setList] = useState("");
-  const [status, setStatus] = useState("");
-  const [filteredTodos, setFilteredTodos] = useState([])
+  const [input,setInput] = useState("")
+  const [status,setStatus] = useState("")
+  const [list,setList] = useState([])
 
- 
+
   return (
+    
       <div className="App">
-        <TodoItem 
-        input = {input} 
-        setInput ={setInput}
-        list = {list}
-        setList = {setList}
-        status = {status}
-        setStatus = {setStatus}
-        />
-
-        <TodoList 
-         list = {list}
-         setList = {setList}
-         filteredTodos = {filteredTodos}
-         />
+            <header>
+              <h1>Fola's To-Do list</h1>
+            </header>
+            <FormInput 
+            input = {input}
+            setInput={setInput}
+            status={status}
+            setStatus={setStatus}
+            />
       </div>
   );
 }
