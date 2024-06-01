@@ -15,6 +15,10 @@ function addToList() {
     setInput("")
 }
 
+const changeStatus = (e) =>{
+   setStatus(e.target.value)
+}
+
   return (
     <div className='sets-on'>
         <div className="container">
@@ -24,13 +28,15 @@ function addToList() {
         </div>
 
 
-        <div className='select'>
+        <div className='select' onChange={changeStatus}>
+
                 <select>
                     <option value='all'>All</option>
                     <option value='completed'>Completed</option>
                     <option value='uncompleted'>Uncompleted</option>
                 </select>
-            </div>
+                
+        </div>
 
     </div>
 
