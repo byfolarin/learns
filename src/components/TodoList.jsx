@@ -1,8 +1,8 @@
 import React from 'react'
 
-const TodoList = ({list,filteredTodos}) => {
+const TodoList = () => {
 
-    console.log(list)
+ console.log(list)
 
   return (
     <div>
