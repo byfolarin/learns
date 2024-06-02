@@ -4,8 +4,8 @@ const Todo = ({input}) => {
 
 
   return (
-    <div>
-      <div className='task-body'>
+    <div className='todo-container'>
+      <div className='todo'>
             <li className='task-to-do'>
                 {input}
             </li>

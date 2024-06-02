@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: white;
@@ -20,6 +21,8 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+
 form input,
 form button {
   padding: 0.5rem;
@@ -27,6 +30,8 @@ form button {
   border: none;
   background: white;
 }
+
+
 form button {
   color: #ff6f47;
   background: #f7fffe;
@@ -34,24 +39,30 @@ form button {
   transition: all 0.3s ease;
 }
 
+
 form button:hover {
   background: #ff6f47;
   color: white;
 }
 
+
 .todo-container {
+  margin: 0 auto;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+
 .todo-list {
-  min-width: 30%;
+ 
   list-style: none;
 }
 
 .todo {
-  margin: 0.5rem;
+  min-width: 100%;
+  margin: 0.5rem ;
   background: white;
   font-size: 1.5rem;
   color: black;
@@ -60,9 +71,12 @@ form button:hover {
   align-items: center;
   transition: all 1s ease;
 }
+
+
 .filter-todo {
   padding: 1rem;
 }
+
 .todo li {
   flex: 1;
 }
@@ -76,9 +90,14 @@ form button:hover {
   cursor: pointer;
   font-size: 1rem;
 }
+
+
+
 .complete-btn {
   background: rgb(11, 212, 162);
 }
+
+
 .todo-item {
   padding: 0rem 0.5rem;
 }
@@ -143,27 +162,15 @@ select {
 
 /* // */
 
-body {
-    background-color: rgb(252, 167, 56);
-}
 
-.body {
-    display: flex;
-}
 
-.App {
-    margin: auto;
-    margin-top: 30px;
-    align-items: flex-start;
-    color: white;
-    background-color: rgb(255, 145, 0);
-    min-width: 600px;
-    padding: 20px;
-}
+
+
+
 
 .check {
     background-color: rgb(59, 204, 59);
-    height: 30px;
+    height: 40px;
     width: 30px;
     display: flex;
     align-items: center;
@@ -173,7 +180,7 @@ body {
 
 .trash {
     background-color: red;
-    height: 30px;
+    height: 40px;
     width: 30px;
     display: flex;
     align-items: center;
@@ -181,13 +188,7 @@ body {
     cursor: pointer;
 }
 
-.task-to-do {
-    color: black;
-    background-color: white;
-    flex-grow: 1;
-    margin-bottom: 8px;
-    height: 30px;
-}
+
 
 .task-body {
     display: flex;
@@ -227,29 +228,7 @@ header {
     font-size: 2rem;
 }
 
-select {
-    outline: 0px;
-    box-shadow: none;
-    border: 0 !important;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    cursor: pointer;
-    width: 120px;
-    height: 20px;
-}
 
-.select::after {
-    content: "\25BC";
-    position: absolute;
-    background-color: red;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    cursor: pointer;
-    height: 20px;
-}
 
 .add-to-list {
     width: 30px;
