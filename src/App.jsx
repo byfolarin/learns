@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import FormInput from './components/FormInput';
 import TodoList from './components/TodoList';
+import { Routes, Route } from 'react-router-dom';
 
 
 
@@ -33,7 +34,11 @@ function App() {
 
   return (
     
+
+    
       <div className="App">
+
+            <Routes>
             <header>
               <h1>Fola's To-Do list</h1>
             </header>
@@ -46,6 +51,7 @@ function App() {
             list = {list}
             setList={setList}
             />
+            </Routes>
 
 
     <TodoList />
