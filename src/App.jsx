@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import FormInput from './components/FormInput';
-import Todo from './components/Todo';
+import TodoList from './components/TodoList';
+
 
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
             />
 
 
-    <Todo input = {input} />
+    <TodoList />
 
       </div>
   );
