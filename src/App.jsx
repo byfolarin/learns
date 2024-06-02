@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import FormInput from './components/FormInput';
+import Todo from './components/Todo';
 
 
 function App() {
@@ -8,6 +9,24 @@ function App() {
   const [input,setInput] = useState("")
   const [status,setStatus] = useState("all")
   const [list,setList] = useState([])
+  const [filteredTodos, setFilteredTodos] = useState([])
+
+
+  function filterHandler(){
+    switch(status){
+      case 'completed':
+        setFilteredTodos(list.filter((todo) => todo.completed === true))
+        break;
+
+      case 'uncompleted':
+        setFilteredTodos(list.filter((todo) => todo.completed === false))
+        break;
+
+      default:
+        setFilteredTodos(list)
+        break;
+    }
+  }
 
 
 
@@ -27,7 +46,8 @@ function App() {
             setList={setList}
             />
 
-            <TodoList />
+
+    <Todo input = {input} />
 
       </div>
   );
