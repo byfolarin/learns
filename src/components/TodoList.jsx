@@ -6,7 +6,7 @@ const TodoList = () => {
 
   return (
     <div>
-      <p>We render here and display her</p>
+      
     </div>
   )
 }
