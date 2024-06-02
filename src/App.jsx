@@ -12,7 +12,7 @@ function App() {
   const [input,setInput] = useState("")
   const [status,setStatus] = useState("all")
   const [list,setList] = useState([])
-  const [filteredTodos, setFilteredTodos] = useState([])
+
 
 
   return (
