@@ -1,10 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 import FormInput from './components/FormInput';
-import TodoList from './components/TodoList'
-
-
-
 
 
 function App() {
