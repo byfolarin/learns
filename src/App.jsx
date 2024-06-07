@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Carousel from './components/Carousel';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <div className="App">
 
            <h1>Images</h1>
+           <Carousel />
 
       </div>
   );
