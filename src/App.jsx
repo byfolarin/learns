@@ -15,10 +15,7 @@ function App() {
 
     
       <div className="App">
-
-           <h1>Images</h1>
            <Carousel />
-           
       </div>
   );
 }
