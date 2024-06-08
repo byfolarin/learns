@@ -1,34 +1,31 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import myImage from '../assets/images/1.jpeg';
 import thisImage from '../assets/images/2.jpeg';
 import heyImage from '../assets/images/3.jpeg';
 
-
 const Carousel = () => {
+  const loopImg = [myImage, thisImage, heyImage];
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const [current,setCurrent] = useState([myImage]);
-  const loopImg = [myImage,thisImage,heyImage];
+  const handleNextClick = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % loopImg.length);
+  };
 
-  function handleClick(){
-    setCurrent(item=>[...item,...loopImg]);
-  }
-
-
+  const handlePrevClick = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + loopImg.length) % loopImg.length);
+  };
 
   return (
     <div className='container'>
-
       <div className="arrows">
-      <div className="left-box" onClick={handleClick}><i class="fa-solid fa-arrow-up"></i></div>
-      <div className="right-box" onClick={handleClick}><i class="fa-solid fa-arrow-down"></i></div>
+        <div className="left-box" onClick={handlePrevClick}><i class="fa-solid fa-arrow-up"></i></div>
+        <div className="right-box" onClick={handleNextClick}><i class="fa-solid fa-arrow-down"></i></div>
       </div>
-
-      
       <div className="img-space">
-      <img src={current} alt="" />
+        <img src={loopImg[currentIndex]} alt={`Carousel ${currentIndex}`} />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Carousel
+export default Carousel;
