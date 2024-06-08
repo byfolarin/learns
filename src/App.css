@@ -12,20 +12,36 @@ body {
 
 }
 
+.arrows{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
 
 .left-box{
-  background-color: gray;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
+  align-items: center;
   height: 64px;
-  height: 64px;
+  width: 64px;
   z-index: 1000;
+  cursor: pointer;
 }
 
 
 .right-box{
-  background-color: gray;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
+  align-items: center;
   height: 64px;
-  height: 64px;
+  width: 64px;
   z-index: 1000;
+  cursor: pointer;
 }
 
 

@@ -5,14 +5,7 @@ import Carousel from './components/Carousel';
 
 function App() {
 
-  const [image, setImage] = useState([])
-
-
-
-
   return (
-    
-
     
       <div className="App">
            <Carousel />
