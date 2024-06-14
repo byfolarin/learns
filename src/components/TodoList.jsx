@@ -1,10 +1,15 @@
 import React from 'react'
 
-const TodoList = ({input, setInput}) => {
+const TodoList = ({input, setInput, list, setList}) => {
 
 
     function handleChange (e){
         setInput(e.target.value)
+        setInput("")
+    }
+
+    function handleList (){
+        setList(prev =>[...prev, input]);
     }
 
 
@@ -12,9 +17,15 @@ const TodoList = ({input, setInput}) => {
   return (
     <div>
         <label htmlFor="list-text">Input your list</label>
-      <input type="text" value={input} id='list-text' placeholder='input your list item'/>
-      <button>Add item</button>
+      <input type="text" value={input} onChange={handleChange} id='list-text' placeholder='input your list item'/>
+      <button onClick={handleList}>Add item</button>
+
+
+      <li >{list}</li>
     </div>
+
+
+
   )
  }
 
