@@ -19,9 +19,14 @@ const TodoList = ({input, setInput, list, setList}) => {
         <label htmlFor="list-text">Input your list</label>
       <input type="text" value={input} onChange={handleChange} id='list-text' placeholder='input your list item'/>
       <button onClick={handleList}>Add item</button>
+
+
+
+      <li>{list}</li>
+
     </div>
 
-
+    
 
   )
  }
