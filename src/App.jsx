@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import TodoList from './components/TodoList';
-import TodoItem from './components/TodoItem';
+
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         />
 
 
-        <TodoItem/>
+        
       </div>
   );
 }
