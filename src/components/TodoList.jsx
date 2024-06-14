@@ -5,7 +5,6 @@ const TodoList = ({input, setInput, list, setList}) => {
 
     function handleChange (e){
         setInput(e.target.value)
-        setInput("")
     }
 
     function handleList (){
