@@ -1,6 +1,13 @@
 import React from 'react'
+import { useState } from 'react';
 
-const TodoList = ({input, setInput, list, setList, arr, setArr}) => {
+const TodoList = () => {
+
+
+    const [input, setInput] = useState ("");
+    const [list, setList] = useState([]);
+    const [arr, setArr] = useState([])
+  
 
 
     function handleChange (e){
