@@ -11,7 +11,6 @@ const TodoList = ({input, setInput, list, setList, arr, setArr}) => {
         setList(prev =>[...prev, input]);
         setInput('')
         setArr([...list])
-
         console.log(arr)
     }
 
@@ -22,7 +21,9 @@ const TodoList = ({input, setInput, list, setList, arr, setArr}) => {
       <input type="text" value={input} onChange={handleChange} id='list-text' placeholder='input your list item'/>
       <button onClick={handleList}>Add item</button>
 
-      <p><li>{arr}</li></p>
+      <p>{arr.map(x =>(
+        <li>{x}</li>
+      ))}</p>
 
     </div>
 
