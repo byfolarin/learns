@@ -18,6 +18,7 @@ const Carousel = () => {
   return (
     <div className='container'>
       <div className="arrows">
+        <h1>Updated Code</h1>
         <div className="left-box" onClick={handlePrevClick}><i class="fa-solid fa-arrow-up"></i></div>
         <div className="right-box" onClick={handleNextClick}><i class="fa-solid fa-arrow-down"></i></div>
       </div>
