@@ -10,19 +10,10 @@ const TodoList = ({input, setInput, list, setList, arr, setArr}) => {
     function handleList (){
         setList(prev =>[...prev, input]);
         setInput('')
-        setArr(list.map(i =>{
-            <span>i</span>
-        }))
+        setArr([...list])
 
         console.log(arr)
     }
-
-    // function mapList (){
-       
-    // }
-
-  
-
 
 
   return (
@@ -31,7 +22,7 @@ const TodoList = ({input, setInput, list, setList, arr, setArr}) => {
       <input type="text" value={input} onChange={handleChange} id='list-text' placeholder='input your list item'/>
       <button onClick={handleList}>Add item</button>
 
-      <p>{arr}</p>
+      <p><li>{arr}</li></p>
 
     </div>
 
