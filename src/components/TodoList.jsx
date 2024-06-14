@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TodoList = ({input, setInput, list, setList}) => {
+const TodoList = ({input, setInput, list, setList, arr, setArr}) => {
 
 
     function handleChange (e){
@@ -10,7 +10,18 @@ const TodoList = ({input, setInput, list, setList}) => {
     function handleList (){
         setList(prev =>[...prev, input]);
         setInput('')
+        setArr(list.map(i =>{
+            <span>i</span>
+        }))
+
+        console.log(arr)
     }
+
+    // function mapList (){
+       
+    // }
+
+  
 
 
 
@@ -20,9 +31,7 @@ const TodoList = ({input, setInput, list, setList}) => {
       <input type="text" value={input} onChange={handleChange} id='list-text' placeholder='input your list item'/>
       <button onClick={handleList}>Add item</button>
 
-
-
-      <li>{list}</li>
+      <p>{arr}</p>
 
     </div>
 
