@@ -8,10 +8,9 @@ const TodoList = ({input, setInput, list, setList, arr, setArr}) => {
     }
 
     function handleList (){
-        setList(prev =>[...prev, input]);
-        setInput('')
+        setList(prev =>[...prev, input])
         setArr([...list])
-        console.log(arr)
+        setInput('')
     }
 
 
