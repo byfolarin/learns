@@ -27,9 +27,7 @@ const TodoList = () => {
       <input type="text" value={input} onChange={handleChange} id='list-text' placeholder='input your list item'/>
       <button onClick={handleList}>Add item</button>
 
-      <p>{arr.map(i =>(
-        <li>{i}</li>
-      ))}</p>
+      <p>{arr.map(i =>(<li>{i}</li>))}</p>
 
     </div>
 
