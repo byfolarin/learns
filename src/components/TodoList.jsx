@@ -3,11 +3,9 @@ import { useState } from 'react';
 
 const TodoList = () => {
 
-
     const [input, setInput] = useState ("");
     const [list, setList] = useState([]);
     const [arr, setArr] = useState([])
-  
 
 
     function handleChange (e){
