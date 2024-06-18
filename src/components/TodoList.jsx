@@ -8,15 +8,15 @@ const TodoList = () => {
     const [arr, setArr] = useState([])
 
 
-    // function handleChange (e){
-    //     setInput(e.target.value)
-    // }
+    function handleChange (e){
+        setInput(e.target.value)
+    }
 
-    // function handleList (){
-    //     setList(prev =>[...prev, input])
-    //     setArr([...list])
-    //     setInput('')
-    // }
+    function handleList (){
+        setList(prev =>[...prev, input])
+        setArr([...list])
+        setInput('')
+    }
 
 
   return (
