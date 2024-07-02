@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const TodoList = () => {
+const SideBar = () => {
 
   return (
     <div>
@@ -13,4 +13,4 @@ const TodoList = () => {
   )
  }
 
-export default TodoList
+export default SideBar
