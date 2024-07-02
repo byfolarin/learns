@@ -3,3 +3,7 @@
   color: whitesmoke;
   font-family: sans-serif, 'inter';
 }
+
+.sidebar-nav li{
+  font-weight: 200;
+}

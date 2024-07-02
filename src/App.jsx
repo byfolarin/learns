@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <ul>
+    <ul className='sidebar-nav'>
       <li>Home</li>
       <li>Search</li>
       <li>Explore</li>
