@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import Profile from './components/Profile';
 
 
 
@@ -10,6 +11,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
+
+    <div className="container">
     <ul className='style-side-bar'>
 
     <h2 className='logo-repo'>Instagram</h2>
@@ -20,16 +23,17 @@ function App() {
     <li className='side--bar-list-items'><Link to={"/"}>Messages</Link></li>
     <li className='side--bar-list-items'><Link to={"/"}>Notification</Link></li>
     <li className='side--bar-list-items'><Link to={"/"}>Create</Link></li>
-    <li className='side--bar-list-items'><Link to={"/"}>Profile</Link></li>
+    <li className='side--bar-list-items'><Link to={"/Profile"}>Profile</Link></li>
     <li className='side--bar-list-items'><Link to={"/"}>More</Link></li>
     </ul>
+    
 
    
     <Routes>
-        <Route path="/" element={<Profile/>} />
+        <Route path="/Profile" element={<Profile/>} />
       </Routes>
    
-
+      </div>
 
   </BrowserRouter>
     </>
