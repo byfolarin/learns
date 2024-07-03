@@ -4,6 +4,25 @@
   font-family: sans-serif, 'inter';
 }
 
+.style-side-bar li{
+  text-decoration: none;
+}
+
+.style-side-bar link{
+  list-style-type: none;;
+}
+
+
+
 .sidebar-nav li{
   font-weight: 200;
+}
+
+
+.side--bar-list-items{
+  padding: 24px 16px;
+}
+
+.side--bar-list-items:hover{
+  background-color: gray;
 }
