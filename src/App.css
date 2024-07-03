@@ -51,16 +51,15 @@
 
 /* Profile Page */
 .profile-container{
-  padding: 64px;
+  padding: 32px;
 }
 
 .profile-header-section{
   display: flex;
+  width: 100%;
 }
 
 .img-container-profile{
-  margin: 64px;
-  padding: 24px;
   width: 150px;
   height: 150px;
   background-color: antiquewhite;
@@ -74,10 +73,15 @@
 
 .wrap-profile-edit{
   display: flex;
+  align-items: center;
   gap: 16px;
+  width: 70;
+  height: fit-content;
 }
 
 .btn-profile{
   padding: 8px;
-  background-color: blanchedalmond;
+  font-size: 14px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 4px;
 }
