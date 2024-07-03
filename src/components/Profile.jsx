@@ -11,8 +11,7 @@ const Profile = () => {
 
       <div className="profile-header-section">
 
-                <div className="profile-marker">
-
+    
 
                   <div className="img-section-edit">
                       <div className="img-container-profile">
@@ -22,32 +21,32 @@ const Profile = () => {
 
                       <div className="top-nav-wrapper">
 
-                      <div className="wrap-profile-edit">
+                                  <div className="wrap-profile-edit">
 
-                              <div className="name-change">
-                                <h2>byfolarin</h2>
-                              </div>
+                                          <div className="name-change">
+                                            <h2>byfolarin</h2>
+                                          </div>
 
 
-                              <div className="lump-edit">
-                              <div className="profile-edit btn-profile">
-                              Edit Profile
-                              </div>
+                                          <div className="lump-edit">
+                                          <div className="profile-edit btn-profile">
+                                          Edit Profile
+                                          </div>
 
-                              <div className="archive-view btn-profile">
-                              View Archive
-                              </div>
+                                          <div className="archive-view btn-profile">
+                                          View Archive
+                                          </div>
 
-                              <div className="ad-tools btn-profile">
-                              Ad Tools
-                              </div>
-                              </div>
+                                          <div className="ad-tools btn-profile">
+                                          Ad Tools
+                                          </div>
+                                          </div>
 
-                      </div>
+                                  </div>
 
 
               
-        </div>
+                          
 
                               <div className="profile-count-edit">
 
@@ -64,11 +63,16 @@ const Profile = () => {
                                       </div>
                                     
                               </div>
-                              </div>
-      
-           
 
-      </div>
+
+                              </div>
+
+
+
+
+       </div>
+      
+          
 
 
 

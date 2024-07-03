@@ -17,6 +17,7 @@
 }
 
 .style-side-bar{
+  position: sticky;
   padding: 16px ;
   width: 250px;
   border-right: 1px solid rgb(48, 48, 48);
@@ -57,13 +58,14 @@
 
 .profile-header-section{
   width: 100%;
-  
-  
+  display: flex;
 }
 
-.profile-marker{
+.top-nav-wrapper{
   display: flex;
   flex-direction: column;
+  align-items: start;
+  gap: 24px;
 }
 
 .img-section-edit{
