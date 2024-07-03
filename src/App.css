@@ -104,3 +104,7 @@
   background-color: rgb(30, 30, 30);
 }
 
+.profile-count-edit{
+  display: flex;
+}
+

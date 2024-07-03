@@ -43,6 +43,24 @@ const Profile = () => {
       </div>
 
 
+      
+      <div className="profile-count-edit">
+
+              <div className="post-change">
+                <h2>8 post</h2>
+              </div>
+              
+              <div className="profile-followers-change">
+              194 followers
+              </div>
+
+              <div className="profile-following-change">
+              449 following
+              </div>
+            
+      </div>
+
+
       </div>
 
 
