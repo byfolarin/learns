@@ -59,11 +59,24 @@
   width: 100%;
 }
 
+.img-section-edit{
+  padding: 64px;
+  margin-right: 16px;
+}
+
 .img-container-profile{
   width: 150px;
   height: 150px;
-  background-color: antiquewhite;
+  border: 0.5px solid rgb(42, 42, 42);
+  background-color: rgb(32, 32, 32);
   border-radius: 50%;
+}
+
+.wrap-profile-edit{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: fit-content;
 }
 
 .name-change h2{
@@ -71,17 +84,23 @@
   font-weight: 400;
 }
 
-.wrap-profile-edit{
+.lump-edit{
   display: flex;
+  gap: 8px;
   align-items: center;
-  gap: 16px;
-  width: 70;
-  height: fit-content;
+  justify-content: center;
 }
 
+
+
 .btn-profile{
-  padding: 8px;
+  padding: 8px 14px;
   font-size: 14px;
-  background-color: rgb(66, 66, 66);
-  border-radius: 4px;
+  background-color: rgb(57, 57, 57);
+  border-radius: 8px;
 }
+
+.btn-profile:hover{
+  background-color: rgb(30, 30, 30);
+}
+

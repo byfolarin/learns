@@ -11,6 +11,7 @@ const Profile = () => {
 
       <div className="profile-header-section">
 
+
           <div className="img-section-edit">
               <div className="img-container-profile">
               </div>
@@ -24,6 +25,8 @@ const Profile = () => {
                 <h2>byfolarin</h2>
               </div>
 
+
+              <div className="lump-edit">
               <div className="profile-edit btn-profile">
               Edit Profile
               </div>
@@ -34,6 +37,7 @@ const Profile = () => {
 
               <div className="ad-tools btn-profile">
               Ad Tools
+              </div>
               </div>
 
       </div>
