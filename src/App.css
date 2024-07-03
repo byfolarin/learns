@@ -17,14 +17,16 @@
   border-right: 1px solid rgb(48, 48, 48);
 }
 
-.style-side-bar li{
-  list-style-type: none;
+
+.style-side-bar a{
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  list-style-type: none
 }
 
-
-
-.sidebar-nav li{
-  font-weight: 200;
+.style-side-bar li{
+  list-style-type: none;
 }
 
 
