@@ -98,6 +98,12 @@ const Profile = () => {
                                         <div className="img-stories"></div>
                                         <div className="img-stories"></div>
                                         <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
                                         </div>
   
       
