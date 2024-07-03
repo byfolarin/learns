@@ -71,3 +71,13 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+.wrap-profile-edit{
+  display: flex;
+  gap: 16px;
+}
+
+.btn-profile{
+  padding: 8px;
+  background-color: blanchedalmond;
+}

@@ -13,9 +13,27 @@ const Profile = () => {
       <div className="img-container-profile">
       </div>
 
+      <div className="wrap-profile-edit">
+
       <div className="name-change">
         <h2>byfolarin</h2>
       </div>
+
+      <div className="profile-edit btn-profile">
+       Edit Profile
+      </div>
+
+      <div className="archive-view btn-profile">
+       View Archive
+      </div>
+
+      <div className="ad-tools btn-profile">
+      Ad Tools
+      </div>
+
+      </div>
+
+
       </div>
 
 
