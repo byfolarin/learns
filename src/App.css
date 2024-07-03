@@ -55,7 +55,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px;
+  padding: 32px 64px;
 
 }
 
@@ -140,7 +140,8 @@
 
 .stories-img{
   display: flex;
-  gap: 24px;
+  gap: 64px;
+  align-items: stretch;
 }
 
 
