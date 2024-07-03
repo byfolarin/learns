@@ -89,14 +89,17 @@ const Profile = () => {
                               </div>
 
 
-                              <div className="img-stories">
-                                
-                              </div>
-
+                             
 
 
 
        </div>
+                                        <div className="stories-img">
+                                        <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
+                                        <div className="img-stories"></div>
+                                        </div>
+  
       
           
 
