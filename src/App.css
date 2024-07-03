@@ -54,9 +54,16 @@
   padding: 32px;
 }
 
+
 .profile-header-section{
-  display: flex;
   width: 100%;
+  
+  
+}
+
+.profile-marker{
+  display: flex;
+  flex-direction: column;
 }
 
 .img-section-edit{
@@ -94,7 +101,7 @@
 
 
 .btn-profile{
-  padding: 8px 14px;
+  padding: 8px 14px; 
   font-size: 14px;
   background-color: rgb(57, 57, 57);
   border-radius: 8px;
@@ -106,5 +113,6 @@
 
 .profile-count-edit{
   display: flex;
+  gap: 24px;
 }
 
