@@ -10,9 +10,6 @@ function App() {
   return (
     <>
     <BrowserRouter>
-
-
-    
     <ul className='style-side-bar'>
 
     <h2 className='logo-repo'>Instagram</h2>
@@ -27,9 +24,11 @@ function App() {
     <li className='side--bar-list-items'><Link to={"/"}>More</Link></li>
     </ul>
 
-    <>
-    
-    </>
+   
+    <Routes>
+        <Route path="/" element={<Profile/>} />
+      </Routes>
+   
 
 
   </BrowserRouter>

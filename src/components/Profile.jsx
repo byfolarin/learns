@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const SideBar = () => {
+const Profile = () => {
 
   return (
     <div>
@@ -13,4 +13,4 @@ const SideBar = () => {
   )
  }
 
-export default SideBar
+export default Profile
