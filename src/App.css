@@ -133,3 +133,11 @@
   font-size: 14px;
 }
 
+
+.img-stories{
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background-color: gray;
+}
+
