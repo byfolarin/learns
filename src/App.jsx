@@ -10,8 +10,13 @@ function App() {
   return (
     <>
     <BrowserRouter>
+
+
     
     <ul className='style-side-bar'>
+
+    <h2 className='logo-repo'>Instagram</h2>
+
     <li className='side--bar-list-items'><Link to={"/"}>Home</Link></li>
     <li className='side--bar-list-items'><Link to={"/"}>Search</Link></li>
     <li className='side--bar-list-items'><Link to={"/"}>Explore</Link></li>

@@ -2,14 +2,23 @@
   background-color: black;
   color: whitesmoke;
   font-family: sans-serif, 'inter';
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo-repo{
+  margin: 24px 0;
+}
+
+.style-side-bar{
+  padding: 16px;
+  width: 250px;
+  border-right: 1px solid rgb(48, 48, 48);
 }
 
 .style-side-bar li{
-  text-decoration: none;
-}
-
-.style-side-bar link{
-  list-style-type: none;;
+  list-style-type: none;
 }
 
 
@@ -20,9 +29,10 @@
 
 
 .side--bar-list-items{
-  padding: 24px 16px;
+  padding: 16px 16px;
 }
 
 .side--bar-list-items:hover{
-  background-color: gray;
+  background-color: rgb(19, 18, 18);
+  border-radius: 8px;
 }
