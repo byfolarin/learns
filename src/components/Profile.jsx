@@ -14,7 +14,7 @@ const Profile = () => {
     
 
                   <div className="img-section-edit">
-                      <div className="img-container-profile">
+                      <div className="img-container-profile" width = '150px' height = '150px'>
                       </div>
                   </div>
 
@@ -77,7 +77,11 @@ const Profile = () => {
 
 
                               <div className="bio-post">
-                                
+                                <p>-Design Engineer <br />
+                                  -Lagos, Nigeria <br />
+                                  -Building @getselah / @getplayground <br />
+                                  Mail: thefolafolarin@gmail.com
+                                </p>
                               </div>
                               </div>
 

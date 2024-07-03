@@ -123,3 +123,13 @@
   color: rgb(188, 188, 188);
 }
 
+.secondary-post-title{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bio-post p{
+  font-size: 14px;
+}
+
