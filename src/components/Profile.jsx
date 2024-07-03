@@ -65,6 +65,23 @@ const Profile = () => {
                               </div>
 
 
+                              <div className="secondary-post-title">
+
+                              <div className="post-name">
+                                Folarin Folarin
+                              </div>
+
+                              <div className="post-title">
+                                Designer
+                              </div>
+
+
+                              <div className="bio-post">
+                                
+                              </div>
+                              </div>
+
+
                               </div>
 
 
