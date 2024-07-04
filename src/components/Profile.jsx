@@ -123,7 +123,7 @@ const Profile = () => {
                                             <div className="ring-wrap">
                                                 <div className="img-stories"></div>
                                                 </div>  
-                                            <div className="sub-text">Crazy Love</div>
+                                            <div className="sub-text">3D</div>
 
                                             </div>
 
@@ -134,7 +134,7 @@ const Profile = () => {
                                             <div className="ring-wrap">
                                                 <div className="img-stories"></div>
                                                 </div>  
-                                            <div className="sub-text">Crazy Love</div>
+                                            <div className="sub-text">Randoms</div>
 
                                             </div>
 
@@ -144,7 +144,7 @@ const Profile = () => {
                                             <div className="ring-wrap">
                                                 <div className="img-stories"></div>
                                                 </div>  
-                                            <div className="sub-text">Crazy Love</div>
+                                            <div className="sub-text">Process</div>
 
                                             </div>
 
@@ -153,9 +153,20 @@ const Profile = () => {
                                             <div className="ring-wrap">
                                                 <div className="img-stories"></div>
                                                 </div>  
-                                            <div className="sub-text">Crazy Love</div>
+                                            <div className="sub-text">Illustration</div>
 
                                             </div>
+
+
+                                            <div className="sub-wrapper">
+
+                                          <div className="ring-wrap">
+                                              <div className="img-stories"></div>
+                                              </div>  
+                                          <div className="sub-text">Portfolio</div>
+
+                                          </div>
+
 
 
                             
