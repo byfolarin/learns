@@ -174,7 +174,34 @@ const Profile = () => {
           
 
 
+      <section className='section-posts'>
+        
+        <div className="posts">
+         <div> Posts</div>
+         <div>  Reels</div>
+         <div> Saved  </div> 
+        </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </section>
 
 
 

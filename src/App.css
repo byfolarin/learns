@@ -172,3 +172,12 @@
   font-size: 12px;
 }
 
+
+.section-posts{
+    margin: 32px 0px;
+}
+
+.post{
+  width: 100%;
+  display: flex;
+}
