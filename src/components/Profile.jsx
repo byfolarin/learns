@@ -10,17 +10,12 @@ const Profile = () => {
       <div className="profile-container">
 
       <div className="profile-header-section">
-
-    
-
                   <div className="img-section-edit">
                     <div className="ring-wrap">
                       <div className="img-container-profile" width = '150px' height = '150px'>
                       </div>
                       </div>
                   </div>
-
-
                       <div className="top-nav-wrapper">
 
                                   <div className="wrap-profile-edit">
@@ -28,8 +23,6 @@ const Profile = () => {
                                           <div className="name-change">
                                             <h2>byfolarin</h2>
                                           </div>
-
-
                                           <div className="lump-edit">
                                           <div className="profile-edit btn-profile">
                                           Edit Profile
@@ -43,7 +36,6 @@ const Profile = () => {
                                           Ad Tools
                                           </div>
                                           </div>
-
                                   </div>
 
 
