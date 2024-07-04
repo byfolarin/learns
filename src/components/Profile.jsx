@@ -97,8 +97,10 @@ const Profile = () => {
 
        </div>
   
-       <div className="stories-img">
+                                  <div className="stories-img">
+
                                         <div className="sub-wrapper">
+
                                             <div className="ring-wrap">
                                                 <div className="img-stories"></div>
                                                 </div>  
@@ -106,13 +108,56 @@ const Profile = () => {
                                             
                                         </div>
 
+                                        <div className="sub-wrapper">
 
-                                        <div className="img-stories"></div>
-                                        <div className="img-stories"></div>
-                                        <div className="img-stories"></div>
-                                        <div className="img-stories"></div>
-                                        <div className="img-stories"></div>
-                                        <div className="img-stories"></div>
+                                        <div className="ring-wrap">
+                                            <div className="img-stories"></div>
+                                            </div>  
+                                        <div className="sub-text">Crazy Love</div>
+
+                                        </div>
+
+
+                                        <div className="sub-wrapper">
+
+                                            <div className="ring-wrap">
+                                                <div className="img-stories"></div>
+                                                </div>  
+                                            <div className="sub-text">Crazy Love</div>
+
+                                            </div>
+
+
+
+                                            <div className="sub-wrapper">
+
+                                            <div className="ring-wrap">
+                                                <div className="img-stories"></div>
+                                                </div>  
+                                            <div className="sub-text">Crazy Love</div>
+
+                                            </div>
+
+
+                                            <div className="sub-wrapper">
+
+                                            <div className="ring-wrap">
+                                                <div className="img-stories"></div>
+                                                </div>  
+                                            <div className="sub-text">Crazy Love</div>
+
+                                            </div>
+
+                                            <div className="sub-wrapper">
+
+                                            <div className="ring-wrap">
+                                                <div className="img-stories"></div>
+                                                </div>  
+                                            <div className="sub-text">Crazy Love</div>
+
+                                            </div>
+
+
                             
                                         </div>
           
