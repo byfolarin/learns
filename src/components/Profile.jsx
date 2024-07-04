@@ -14,7 +14,9 @@ const Profile = () => {
     
 
                   <div className="img-section-edit">
+                    <div className="ring-wrap">
                       <div className="img-container-profile" width = '150px' height = '150px'>
+                      </div>
                       </div>
                   </div>
 
