@@ -174,13 +174,18 @@
 
 
 .section-posts{
-  border-top: 1px solid gray;
+  width: 100%;
+  border-top: 1px solid rgb(48, 48, 48);
     margin: 32px 0px;
 }
 
 .posts{
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
   gap: 64px;
   padding: 24px;
+  color:rgb(70, 70, 70) ;
 }
