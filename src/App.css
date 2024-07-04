@@ -151,7 +151,7 @@
   border-radius: 50%;
   width: 77px;
   height: 77px;
-  background-color: gray;
+  background-color: #C3C3C3;
 }
 
 .sub-wrapper{
@@ -163,7 +163,7 @@
 
 .ring-wrap{
   padding: 4px;
-  border: 1px solid gray;
+  border: 1px solid rgb(70, 70, 70);
   border-radius: 50%;
 }
 
@@ -174,10 +174,13 @@
 
 
 .section-posts{
+  border-top: 1px solid gray;
     margin: 32px 0px;
 }
 
-.post{
+.posts{
   width: 100%;
   display: flex;
+  gap: 64px;
+  padding: 24px;
 }
