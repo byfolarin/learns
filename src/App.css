@@ -17,7 +17,7 @@
 }
 
 .style-side-bar{
-  position: sticky;
+  position: fixed;
   padding: 16px ;
   width: 250px;
   border-right: 1px solid rgb(48, 48, 48);
