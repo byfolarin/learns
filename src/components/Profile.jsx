@@ -184,6 +184,19 @@ const Profile = () => {
         </div>
 
 
+        <div className="profile-gallery">
+          <div className="first-img"></div>
+          <div className="first-img"></div>
+          <div className="first-img"></div>
+        </div>
+
+        <div className="profile-gallery">
+          <div className="first-img"></div>
+          <div className="first-img"></div>
+          <div className="first-img"></div>
+        </div>
+
+
 
 
 

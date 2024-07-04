@@ -176,7 +176,7 @@
 .section-posts{
   width: 100%;
   border-top: 1px solid rgb(48, 48, 48);
-    margin: 32px 0px;
+  margin: 32px 0px;
 }
 
 .posts{
@@ -188,4 +188,18 @@
   gap: 64px;
   padding: 24px;
   color:rgb(70, 70, 70) ;
+}
+
+.profile-gallery{
+  width: 100%;
+  margin: 24px 0px;
+  display: flex;
+  gap: 16px;
+}
+
+
+.first-img{
+  width:33.33% ;
+  height: 307px;
+  background-color: rgb(70, 70, 70);
 }
