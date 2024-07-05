@@ -3,6 +3,9 @@ import profile from '../assets/GM2_KvuXMAE-ZRk.jpeg'
 import Posts from './Posts'
 import { Link } from 'react-router-dom'
 import PostsIcon from '../assets/PostsIcon'
+import ReelsIconss from '../assets/ReelsIconss'
+import SavedIcons from '../assets/SavedIcons'
+import TaggedIcons from '../assets/TaggedIcons'
 
 
 
@@ -179,10 +182,10 @@ const Profile = () => {
       <section className='section-posts'>
         
         <div className="posts">
-        <Link to={"/Posts"} className='icons-text'> <div className="homelogo"><PostsIcon/></div>POSTS</Link>
-        <Link to={"/Reels"}>REELS</Link>
-        <Link to={"/Saved"}>SAVED</Link>
-        <Link to={"/Tagged"}>TAGGED</Link>
+        <Link to={"/Posts"} className='icons-text'> <div ><PostsIcon/> </div>POSTS</Link>
+        <Link to={"/Reels"} className='icons-text'> <div ><ReelsIconss/> </div>REELS</Link>
+        <Link to={"/Saved"} className='icons-text'> <div ><SavedIcons/> </div> SAVED</Link>
+        <Link to={"/Tagged"} className='icons-text'> <div><TaggedIcons/> </div> TAGGED</Link>
         </div>
      
          <Posts/>
