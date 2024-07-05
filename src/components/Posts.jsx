@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from '../assets/images/insta1.png'
 import img2 from '../assets/images/Dashboard.png'
 import img3 from '../assets/images/cards.png'
+import img4 from '../assets/images/Food.png'
 
 const Posts = () => {
   return (
@@ -20,6 +21,11 @@ const Posts = () => {
           <div className="first-img">
           <div className="img-container"><img src={img3} alt="" /></div>
           </div>
+
+          <div className="first-img">
+          <div className="img-container"><img src={img4} alt="" /></div>
+          </div>
+          
           
         </div>
      
