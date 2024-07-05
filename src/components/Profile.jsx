@@ -1,4 +1,5 @@
 import React from 'react'
+import profile from '../assets/GM2_KvuXMAE-ZRk.jpeg'
 
 
 const Profile = () => {
@@ -12,8 +13,16 @@ const Profile = () => {
       <div className="profile-header-section">
                   <div className="img-section-edit">
                     <div className="ring-wrap">
-                      <div className="img-container-profile" width = '150px' height = '150px'>
+
+                      <div className="img-fit-container">
+
+                      <div className="img-container-profile" >
+                        <img src={profile} alt="" width = '150px' height = '150px'/>
                       </div>
+
+                      </div>
+
+
                       </div>
                   </div>
                       <div className="top-nav-wrapper">

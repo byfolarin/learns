@@ -78,13 +78,27 @@
   margin-right: 16px;
 }
 
-.img-container-profile{
+.img-fit-container{
   width: 150px;
   height: 150px;
+}
+
+.img-container-profile{
+  width: 100%;
   border: 0.5px solid rgb(42, 42, 42);
   background-color: rgb(32, 32, 32);
   border-radius: 50%;
 }
+
+
+.img-container-profile img{
+  width: 100%;
+  border-radius: 50%;
+ object-fit: cover;
+}
+
+
+
 
 .wrap-profile-edit{
   display: flex;
