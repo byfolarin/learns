@@ -246,17 +246,13 @@ svg{
   
 }
 
-
 .first-img{
   width:33.33% ;
   height: 307px;
   background-color: rgb(70, 70, 70);
- 
 }
 
-
-
-.profile-gallery img{
+.img-container img{
   width: 100%;
   object-fit: fill;
 }
