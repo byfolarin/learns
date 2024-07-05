@@ -7,9 +7,13 @@
   box-sizing: border-box;
 }
 
+
+
 .container{
   display: flex;
 }
+
+
 
 .logo-repo{
   font-family: 'Courier New', Courier, monospace;
@@ -87,6 +91,7 @@
   height: 150px;
   border-radius: 50%;
 }
+
 
 
 .img-container-profile{
