@@ -5,7 +5,7 @@ const Posts = () => {
   return (
     <div>
          <div className="profile-gallery">
-          <div className="first-img"></div>
+          <div className="first-img"><img src={img1} alt="" /></div>
           <div className="first-img"></div>
           <div className="first-img"></div>
         </div>

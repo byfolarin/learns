@@ -243,6 +243,7 @@ svg{
   margin: 24px 0px;
   display: flex;
   gap: 16px;
+  
 }
 
 
@@ -250,4 +251,10 @@ svg{
   width:33.33% ;
   height: 307px;
   background-color: rgb(70, 70, 70);
+  object-fit: contain;
+}
+
+
+.profile-gallery img{
+  width: 100%;
 }

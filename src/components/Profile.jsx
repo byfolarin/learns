@@ -1,6 +1,7 @@
 import React from 'react'
 import profile from '../assets/GM2_KvuXMAE-ZRk.jpeg'
 import Posts from './Posts'
+import { Link } from 'react-router-dom'
 
 
 
@@ -177,13 +178,13 @@ const Profile = () => {
       <section className='section-posts'>
         
         <div className="posts">
-         <div> POSTS</div>
+        <Link to={"/Posts"}>POSTS</Link>
          <div>  REELS</div>
          <div> SAVED  </div> 
          <div>TAGGED</div>
         </div>
      
-    <Posts/>
+         <Posts/>
 
 
 
