@@ -41,16 +41,17 @@ function App() {
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/"}>
+                    <Link to={"/"} className='icons-text'>
                     <div className="homelogo">
                           <ExploreIcon/>
                           </div>
-                    Explore</Link>
+                    Explore
+                    </Link>
                     </li>
 
                     
                   <li className='side--bar-list-items'>
-                    <Link to={"/"}>
+                    <Link to={"/"} className='icons-text'>
                     <div className="homelogo">
                           <ReelsIcon/>
                           </div>
@@ -59,7 +60,7 @@ function App() {
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/"}>
+                    <Link to={"/"} className='icons-text'>
                     <div className="homelogo">
                           <MessageIcon/>
                           </div>Messages</Link>
@@ -67,7 +68,7 @@ function App() {
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/"}>
+                    <Link to={"/"} className='icons-text'>
                     <div className="homelogo">
                           <NotificationIcon/>
                           </div>
@@ -76,7 +77,7 @@ function App() {
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/"}>
+                    <Link to={"/"} className='icons-text'>
                     <div className="homelogo">
                           <CreateIcon/>
                           </div>
