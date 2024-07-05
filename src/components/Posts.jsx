@@ -12,19 +12,36 @@ const Posts = () => {
             <div className="img-container"><img src={img1} alt="" /></div>
         </div>
 
-
+          <div className="first-img">
+          <div className="img-container"><img src={img2} alt="" /></div>
+          </div>
 
           <div className="first-img">
           <div className="img-container"><img src={img2} alt="" /></div>
           </div>
-          <div className="first-img"></div>
+          
         </div>
 
         <div className="profile-gallery">
-          <div className="first-img"></div>
-          <div className="first-img"></div>
-          <div className="first-img"></div>
-        </div>
+
+    
+                <div className="first-img">
+                <div className="img-container"><img src={img1} alt="" /></div>
+                </div>
+
+                <div className="first-img">
+                <div className="img-container"><img src={img2} alt="" /></div>
+                </div>
+
+                <div className="first-img">
+                <div className="img-container"><img src={img2} alt="" /></div>
+                </div>
+
+                </div>
+
+        
+
+     
 
     </div>
   )

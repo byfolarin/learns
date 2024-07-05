@@ -247,8 +247,7 @@ svg{
 }
 
 .first-img{
-  width:33.33% ;
-  height: 307px;
+  flex: 1;
   background-color: rgb(70, 70, 70);
 }
 
