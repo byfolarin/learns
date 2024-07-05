@@ -13,6 +13,8 @@ const Profile = () => {
 
       <div className="profile-header-section">
                   <div className="img-section-edit">
+
+
                     <div className="ring-wrap">
 
                       <div className="img-fit-container">
@@ -103,24 +105,7 @@ const Profile = () => {
   
                                   <div className="stories-img">
 
-                                        <div className="sub-wrapper">
-
-                                            <div className="ring-wrap">
-                                                <div className="img-stories"></div>
-                                                </div>  
-                                            <div className="sub-text">Crazy Love</div>
-                                            
-                                        </div>
-
-                                        <div className="sub-wrapper">
-
-                                        <div className="ring-wrap">
-                                            <div className="img-stories"></div>
-                                            </div>  
-                                        <div className="sub-text">Crazy Love</div>
-
-                                        </div>
-
+                                  
 
                                         <div className="sub-wrapper">
 
@@ -170,6 +155,25 @@ const Profile = () => {
                                           <div className="sub-text">Portfolio</div>
 
                                           </div>
+
+                                                <div className="sub-wrapper">
+
+                                            <div className="ring-wrap">
+                                                <div className="img-stories"></div>
+                                                </div>  
+                                            <div className="sub-text">Tablet</div>
+                                            
+                                        </div>
+
+                                        <div className="sub-wrapper">
+
+                                        <div className="ring-wrap">
+                                            <div className="img-stories"></div>
+                                            </div>  
+                                        <div className="sub-text">Behance</div>
+
+                                        </div>
+
 
 
 
