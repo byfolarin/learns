@@ -33,7 +33,7 @@ function App() {
 
                   <li className='side--bar-list-items'>
                     <Link to={"/"} className='icons-text'>
-                    <div className="searchlogo">
+                    <div className="homelogo">
                       <SearchLogo/>
                     </div>  Search
                       </Link>
@@ -71,7 +71,7 @@ function App() {
                     <Link to={"/"} className='icons-text'>
                     <div className="homelogo">
                           <NotificationIcon/>
-                          </div>
+                    </div>
                     Notification</Link>
                   </li>
 
