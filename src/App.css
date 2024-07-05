@@ -14,6 +14,12 @@
 }
 
 
+.icons-text{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 
 .logo-repo{
   font-family: 'Courier New', Courier, monospace;

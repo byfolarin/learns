@@ -3,6 +3,12 @@ import './App.css';
 import Profile from './components/Profile';
 import Instagram from './assets/Instagram'
 import Homelogo from './assets/Homelogo';
+import SearchLogo from './assets/SearchLogo';
+import ExploreIcon from './assets/ExploreIcon';
+import ReelsIcon from './assets/ReelsIcon';
+import MessageIcon from './assets/MessageIcon';
+import NotificationIcon from './assets/NotificationIcon';
+import CreateIcon from './assets/CreateIcon';
 
 
 
@@ -14,15 +20,80 @@ function App() {
     <div className="container">
           <ul className='style-side-bar'>
                   <h2 className='logo-repo'><Instagram/></h2>
-                  <li className='side--bar-list-items'><Link to={"/"}> <div className="homelogo"><Homelogo/></div>   Home</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/"}>Search</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/"}>Explore</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/"}>Reels</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/"}>Messages</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/"}>Notification</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/"}>Create</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/Profile"}>Profile</Link></li>
-                  <li className='side--bar-list-items'><Link to={"/"}>More</Link></li>
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"} className='icons-text'>
+                        <div className="homelogo">
+                          <Homelogo/>
+                          </div>
+                          Home
+                    </Link>
+                  </li>
+
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"} className='icons-text'>
+                    <div className="searchlogo">
+                      <SearchLogo/>
+                    </div>  Search
+                      </Link>
+                  </li>
+
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"}>
+                    <div className="homelogo">
+                          <ExploreIcon/>
+                          </div>
+                    Explore</Link>
+                    </li>
+
+                    
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"}>
+                    <div className="homelogo">
+                          <ReelsIcon/>
+                          </div>
+                    Reels</Link>
+                    </li>
+
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"}>
+                    <div className="homelogo">
+                          <MessageIcon/>
+                          </div>Messages</Link>
+                    </li>
+
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"}>
+                    <div className="homelogo">
+                          <NotificationIcon/>
+                          </div>
+                    Notification</Link>
+                  </li>
+
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"}>
+                    <div className="homelogo">
+                          <CreateIcon/>
+                          </div>
+                    Create</Link>
+                  </li>
+
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/Profile"}>
+                    
+                    Profile</Link>
+                  </li>
+
+
+                  <li className='side--bar-list-items'>
+                    <Link to={"/"}>More</Link>
+                  </li>
           </ul>
     
 
