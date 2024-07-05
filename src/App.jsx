@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Profile from './components/Profile';
-import instagram from '../assets/instagram.svg'
+// import instagram from '../assets/instagram.svg'
 
 
 
