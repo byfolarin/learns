@@ -1,5 +1,7 @@
 import React from 'react'
 import profile from '../assets/GM2_KvuXMAE-ZRk.jpeg'
+import Posts from './Posts'
+
 
 
 
@@ -51,9 +53,6 @@ const Profile = () => {
                                   </div>
 
 
-              
-                          
-
                               <div className="profile-count-edit">
 
                                       <div className="post-change">
@@ -72,7 +71,6 @@ const Profile = () => {
 
 
                               <div className="secondary-post-title">
-
                               <div className="post-name">
                                 Folarin Folarin
                               </div>
@@ -80,7 +78,6 @@ const Profile = () => {
                               <div className="post-title">
                                 Designer
                               </div>
-
 
                               <div className="bio-post">
                                 <p>-Design Engineer <br />
@@ -90,11 +87,6 @@ const Profile = () => {
                                 </p>
                               </div>
                               </div>
-
-
-                              
-
-
                               </div>
 
                               
@@ -190,21 +182,8 @@ const Profile = () => {
          <div> SAVED  </div> 
          <div>TAGGED</div>
         </div>
-
-
-        <div className="profile-gallery">
-          <div className="first-img"></div>
-          <div className="first-img"></div>
-          <div className="first-img"></div>
-        </div>
-
-        <div className="profile-gallery">
-          <div className="first-img"></div>
-          <div className="first-img"></div>
-          <div className="first-img"></div>
-        </div>
-
-
+     
+    <Posts/>
 
 
 
