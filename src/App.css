@@ -241,7 +241,8 @@ svg{
 .profile-gallery{
   width: 100%;
   margin: 8px 0px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   
 }
