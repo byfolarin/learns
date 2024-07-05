@@ -81,6 +81,9 @@
 .img-fit-container{
   width: 150px;
   height: 150px;
+  padding: 4px;
+  border: 1px solid blue;
+  border-radius: 50%;
 }
 
 .img-container-profile{

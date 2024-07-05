@@ -2,6 +2,7 @@ import React from 'react'
 import profile from '../assets/GM2_KvuXMAE-ZRk.jpeg'
 
 
+
 const Profile = () => {
 
   return (
