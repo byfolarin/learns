@@ -18,6 +18,12 @@
   display: flex;
   gap: 8px;
   align-items: center;
+  fill: white;
+}
+
+.icons-text a{
+ text-decoration: none;
+ list-style-type: none;
 }
 
 
@@ -28,6 +34,7 @@
 
 .style-side-bar{
   position: fixed;
+  overflow: visible;
   padding: 16px ;
   width: 250px;
   border-right: 1px solid rgb(48, 48, 48);
