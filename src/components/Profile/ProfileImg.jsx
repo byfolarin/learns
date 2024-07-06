@@ -1,7 +1,6 @@
 import React from 'react'
-import profile from './GM2_KvuXMAE-ZRk.jpeg'
 
-const ProfileImg = () => {
+const ProfileImg = ({defaultImageSrc, setdefaultImageSrc}) => {
   return (
     <div>
                   <div className="img-section-edit">
@@ -11,7 +10,7 @@ const ProfileImg = () => {
                                   <div className="img-fit-container">
 
                                     <div className="img-container-profile" >
-                                      <img src={profile} alt="" className='img-img-profile' />
+                                      <img src={defaultImageSrc} alt="" className='img-img-profile' />
                                     </div>
 
                                 </div>

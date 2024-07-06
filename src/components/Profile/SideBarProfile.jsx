@@ -1,13 +1,14 @@
 import React from 'react'
-import profile from './GM2_KvuXMAE-ZRk.jpeg'
 
-const SideBarProfile = () => {
+
+
+const SideBarProfile = ({defaultImageSrc, setdefaultImageSrc}) => {
   return (
 
     <div>
         <div className="ring-wrap">
             <div className="img-icon">
-            <img src={profile} alt="" className='img-img-profile' />
+            <img src={defaultImageSrc} alt="" className='img-img-profile' />
             </div>
       </div>
     </div>

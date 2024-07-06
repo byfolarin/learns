@@ -11,10 +11,14 @@ import NotificationIcon from './assets/NotificationIcon';
 import CreateIcon from './assets/CreateIcon';
 import MoreIcon from './assets/MoreIcon';
 import SideBarProfile from './components/Profile/SideBarProfile';
+import { useState } from 'react';
+import profile from './components/Profile/GM2_KvuXMAE-ZRk.jpeg'
 
 
 
 function App() {
+
+  const [defaultImageSrc, setDefaultImageSrc] = useState([profile]);
   return (
     <>
     <BrowserRouter>
@@ -106,11 +110,12 @@ function App() {
     
 
    
-    <Routes>
-        <Route path="/Profile" element={<Profile/>} />
-      </Routes>
-   
-      </div>
+                <Routes>
+                    <Route path="/Profile"
+                     element={<Profile defaultImageSrc ={defaultImageSrc} setDefaultImageSrc={setDefaultImageSrc}/>} />
+                  </Routes>
+              
+                  </div>
 
   </BrowserRouter>
     </>
