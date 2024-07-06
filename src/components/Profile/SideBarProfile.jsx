@@ -1,8 +1,7 @@
 import React from 'react'
 
 
-
-const SideBarProfile = ({defaultImageSrc, setdefaultImageSrc}) => {
+const SideBarProfile = ({defaultImageSrc}) => {
   return (
 
     <div>
