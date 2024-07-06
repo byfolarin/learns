@@ -88,7 +88,7 @@ function App() {
 
                   <li className='side--bar-list-items'>
                     <Link to={"/Profile"}>
-                    
+      
                     Profile</Link>
                   </li>
 
