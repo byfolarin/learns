@@ -23,9 +23,6 @@ const Profile = () => {
 
                   <ProfileImg/>
 
-               
-
-
                       <div className="top-nav-wrapper">
 
                                   <div className="wrap-profile-edit">

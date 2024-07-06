@@ -10,6 +10,7 @@ import MessageIcon from './assets/MessageIcon';
 import NotificationIcon from './assets/NotificationIcon';
 import CreateIcon from './assets/CreateIcon';
 import MoreIcon from './assets/MoreIcon';
+import SideBarProfile from './components/Profile/SideBarProfile';
 
 
 
@@ -87,8 +88,10 @@ function App() {
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/Profile"}>
-      
+                    <Link to={"/Profile"} className='icons-text'>
+                    <div className="homelogo">
+                          <SideBarProfile/>
+                          </div>
                     Profile</Link>
                   </li>
 

@@ -276,3 +276,9 @@ svg{
   object-fit: fill;
 }
 
+.img-icon{
+  background-color: rgb(37, 37, 37);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
