@@ -9,6 +9,7 @@ import ReelsIcon from './assets/ReelsIcon';
 import MessageIcon from './assets/MessageIcon';
 import NotificationIcon from './assets/NotificationIcon';
 import CreateIcon from './assets/CreateIcon';
+import MoreIcon from './assets/MoreIcon';
 
 
 
@@ -86,12 +87,18 @@ function App() {
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/Profile"}>Profile</Link>
+                    <Link to={"/Profile"}>
+                    
+                    Profile</Link>
                   </li>
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/"}>More</Link>
+                    <Link to={"/"} className='icons-text'>                 
+                    <div className="homelogo">
+                          <MoreIcon/>
+                          </div>
+                          More</Link>
                   </li>
           </ul>
     
