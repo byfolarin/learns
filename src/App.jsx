@@ -92,13 +92,13 @@ function App() {
                     Profile</Link>
                   </li>
 
-
+git
                   <li className='side--bar-list-items'>
                     <Link to={"/"} className='icons-text'>                 
-                    <div className="homelogo">
+                       <div className="homelogo">
                           <MoreIcon/>
                           </div>
-                          More</Link>
+                      More</Link>
                   </li>
           </ul>
     
