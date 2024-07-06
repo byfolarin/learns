@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Posts from '../Posts'
 import { Link } from 'react-router-dom'
 import PostsIcon from '../../assets/PostsIcon'
@@ -12,6 +12,9 @@ import ProfileImg from './ProfileImg'
 
 const Profile = () => {
 
+
+  const [defaultImageSrc, setDefaultImageSrc] = useState('./ProfileImg');
+
   return (
     <>
     <div className="container">
@@ -21,7 +24,7 @@ const Profile = () => {
       <div className="profile-header-section">
 
 
-                  <ProfileImg/>
+                  <ProfileImg defaultImageSrc/>
 
                       <div className="top-nav-wrapper">
 
@@ -76,7 +79,6 @@ const Profile = () => {
                                 <p>-Design Engineer <br />
                                   -Lagos, Nigeria <br />
                                   -Building @getselah / @getplayground <br />
-                                  Mail: thefolafolarin@gmail.com
                                 </p>
                               </div>
                               </div>
