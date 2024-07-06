@@ -112,7 +112,8 @@ function App() {
    
                 <Routes>
                     <Route path="/Profile"
-                     element={<Profile defaultImageSrc ={defaultImageSrc} setDefaultImageSrc={setDefaultImageSrc}/>} />
+                     element={<Profile defaultImageSrc ={defaultImageSrc}
+                      setDefaultImageSrc={setDefaultImageSrc}/>} />
                   </Routes>
               
                   </div>

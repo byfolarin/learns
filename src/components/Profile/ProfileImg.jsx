@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProfileImg = ({defaultImageSrc, setdefaultImageSrc}) => {
+const ProfileImg = ({defaultImageSrc}) => {
   return (
     <div>
                   <div className="img-section-edit">

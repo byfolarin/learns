@@ -6,7 +6,6 @@ import ReelsIconss from '../../assets/ReelsIconss'
 import SavedIcons from '../../assets/SavedIcons'
 import TaggedIcons from '../../assets/TaggedIcons'
 import ProfileImg from './ProfileImg'
-import profile from './GM2_KvuXMAE-ZRk.jpeg'
 
 
 
@@ -21,7 +20,7 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
       <div className="profile-header-section">
 
 
-                  <ProfileImg defaultImageSrc ={defaultImageSrc} setDefaultImageSrc={setDefaultImageSrc} />
+                  <ProfileImg defaultImageSrc ={defaultImageSrc} />
 
                       <div className="top-nav-wrapper">
 
