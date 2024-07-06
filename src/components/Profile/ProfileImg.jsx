@@ -8,7 +8,7 @@ const ProfileImg = () => {
                     <div className="ring-wrap">
                         <div className="img-fit-container">
                           <div className="img-container-profile" >
-                            <img src={profile} alt="" width = '150px' height = '150px'/>
+                            <img src={profile} alt="" />
                           </div>
                       </div>
                     </div>
