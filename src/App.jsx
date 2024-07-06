@@ -94,7 +94,8 @@ function App() {
                   <li className='side--bar-list-items'>
                     <Link to={"/Profile"} className='icons-text'>
                     <div className="homelogo">
-                          <SideBarProfile/>
+                          <SideBarProfile defaultImageSrc ={defaultImageSrc}
+                      setDefaultImageSrc={setDefaultImageSrc}/>
                           </div>
                     Profile</Link>
                   </li>
@@ -113,7 +114,7 @@ function App() {
                 <Routes>
                     <Route path="/Profile"
                      element={<Profile defaultImageSrc ={defaultImageSrc}
-                      setDefaultImageSrc={setDefaultImageSrc}/>} />
+                     setDefaultImageSrc={setDefaultImageSrc}/>} />
                   </Routes>
               
                   </div>
