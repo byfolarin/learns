@@ -1,11 +1,11 @@
 import React from 'react'
-import profile from '../assets/GM2_KvuXMAE-ZRk.jpeg'
-import Posts from './Posts'
+import Posts from '../Posts'
 import { Link } from 'react-router-dom'
-import PostsIcon from '../assets/PostsIcon'
-import ReelsIconss from '../assets/ReelsIconss'
-import SavedIcons from '../assets/SavedIcons'
-import TaggedIcons from '../assets/TaggedIcons'
+import PostsIcon from '../../assets/PostsIcon'
+import ReelsIconss from '../../assets/ReelsIconss'
+import SavedIcons from '../../assets/SavedIcons'
+import TaggedIcons from '../../assets/TaggedIcons'
+import ProfileImg from './ProfileImg'
 
 
 
@@ -19,22 +19,13 @@ const Profile = () => {
       <div className="profile-container">
 
       <div className="profile-header-section">
-                  <div className="img-section-edit">
 
 
-                    <div className="ring-wrap">
+                  <ProfileImg/>
 
-                      <div className="img-fit-container">
-
-                      <div className="img-container-profile" >
-                        <img src={profile} alt="" width = '150px' height = '150px'/>
-                      </div>
-
-                      </div>
+               
 
 
-                      </div>
-                  </div>
                       <div className="top-nav-wrapper">
 
                                   <div className="wrap-profile-edit">

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
 import Instagram from './assets/Instagram'
 import Homelogo from './assets/Homelogo';
 import SearchLogo from './assets/SearchLogo';
@@ -92,7 +92,6 @@ function App() {
                     Profile</Link>
                   </li>
 
-git
                   <li className='side--bar-list-items'>
                     <Link to={"/"} className='icons-text'>                 
                        <div className="homelogo">
