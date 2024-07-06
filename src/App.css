@@ -132,18 +132,20 @@
 
 
 .img-container-profile{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+
+
+.img-img-profile{
   width: 100%;
+  height: 100%;
   border-radius: 50%;
+  object-fit: cover;
 }
-
-
-.img-container-profile img{
- width: 150px;
- height: 150px;
-  border-radius: 50%;
- object-fit: cover;
-}
-
 
 
 
@@ -230,8 +232,8 @@ svg{
 }
 
 .ring-wrap{
-  padding: 4px;
-  border: 1px solid rgb(70, 70, 70);
+  padding: 3px;
+  border: 2px solid rgb(108, 108, 108);
   border-radius: 50%;
 }
 
