@@ -7,6 +7,9 @@ import SavedIcons from '../../assets/SavedIcons'
 import TaggedIcons from '../../assets/TaggedIcons'
 import ProfileImg from './ProfileImg'
 import Bio from '../Navigation/Bio'
+import EditProfile from './EditProfile'
+import ViewArchive from './ViewArchive'
+import AdTools from './AdTools'
 
 
 
@@ -30,18 +33,11 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
                                           <div className="name-change">
                                             <h2>byfolarin</h2>
                                           </div>
+                                          
                                           <div className="lump-edit">
-                                          <div className="profile-edit btn-profile">
-                                          Edit Profile
-                                          </div>
-
-                                          <div className="archive-view btn-profile">
-                                          View Archive
-                                          </div>
-
-                                          <div className="ad-tools btn-profile">
-                                          Ad Tools
-                                          </div>
+                                             <EditProfile />
+                                             <ViewArchive />
+                                             <AdTools/>
                                           </div>
                                   </div>
 
