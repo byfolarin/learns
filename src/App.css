@@ -120,6 +120,14 @@
   margin-right: 16px;
 }
 
+.profile-followers-change{
+  cursor: pointer;
+}
+
+.profile-following-change{
+  cursor: pointer;
+}
+
 .img-fit-container{
   display: flex;
   align-items: center;
@@ -196,6 +204,10 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.bio-post{
+  cursor: pointer;
 }
 
 .bio-post p{
