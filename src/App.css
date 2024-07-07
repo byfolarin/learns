@@ -127,6 +127,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 
@@ -169,12 +170,12 @@
 }
 
 
-
 .btn-profile{
   padding: 8px 14px; 
   font-size: 14px;
   background-color: rgb(57, 57, 57);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .btn-profile:hover{
