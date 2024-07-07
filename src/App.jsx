@@ -108,8 +108,6 @@ function App() {
                       More</Link>
                   </li>
           </ul>
-    
-
    
                 <Routes>
                     <Route path="/Profile"

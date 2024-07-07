@@ -6,6 +6,7 @@ import ReelsIconss from '../../assets/ReelsIconss'
 import SavedIcons from '../../assets/SavedIcons'
 import TaggedIcons from '../../assets/TaggedIcons'
 import ProfileImg from './ProfileImg'
+import Bio from '../Navigation/Bio'
 
 
 
@@ -61,23 +62,7 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
                                     
                               </div>
 
-
-                              <div className="secondary-post-title">
-                              <div className="post-name">
-                                Folarin Folarin
-                              </div>
-
-                              <div className="post-title">
-                                Designer
-                              </div>
-
-                              <div className="bio-post">
-                                <p>-Design Engineer <br />
-                                  -Lagos, Nigeria <br />
-                                  -Building @getselah / @getplayground <br />
-                                </p>
-                              </div>
-                              </div>
+                                <Bio/>
                               </div>
 
                               
