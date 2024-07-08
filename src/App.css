@@ -319,7 +319,7 @@ svg{
   position: relative;
   z-index: 5;
   background-color: #252525;
-  border-radius: 16px;
+  border-radius: 12px;
   width: 400px;
 }
 
@@ -331,10 +331,21 @@ svg{
 }
 
 .post-photo{
+display: flex;
+justify-content: center;
+width: 100%;
 font-weight: 600;
-font-size: 13px;
-padding: 16px;
-border-top: 1px solid black;
- background: none;''
+font-size: 14px;
+padding: 16px 0px;
+border-top: 1px solid rgb(53, 53, 53);
+ background: none;
+}
+
+.delete-Upload{
+  color: rgb(111, 136, 249);
+}
+
+.delete-Remove{
+  color: rgb(224, 49, 90);
 }
 
