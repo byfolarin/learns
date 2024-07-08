@@ -2,8 +2,10 @@ import React from 'react'
 
 const ProfileModal = () => {
   return (
-    <div>
-      
+    <div className='modal'>
+      <div className="delete-modal">
+        
+      </div>
     </div>
   )
 }
