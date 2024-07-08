@@ -27,8 +27,6 @@ function App() {
     <BrowserRouter>
 
 
-
-
     <div className="container">
           <ul className='style-side-bar'>
                   <h2 className='logo-repo'><Instagram/></h2>
