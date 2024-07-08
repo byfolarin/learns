@@ -11,7 +11,7 @@ const ProfileImg = ({defaultImageSrc}) => {
 
                                     <div className="img-container-profile" >
                                     <img id="uploaded-image" src={defaultImageSrc} alt="Profile Image" className='img-img-profile' />
-                                    <input type="file" id='image-upload'  accept="image/*"/>
+                                    {/* <input type="file" id='image-upload'  accept="image/*"/> */}
                                     
                                     </div>
 

@@ -13,7 +13,7 @@ import MoreIcon from './assets/MoreIcon';
 import SideBarProfile from './components/Profile/SideBarProfile';
 import { useState } from 'react';
 import profile from './components/Profile/GM2_KvuXMAE-ZRk.jpeg'
-import ProfileModal from './components/Modals/ProfileModal';
+
 
 
 
@@ -27,7 +27,7 @@ function App() {
     <BrowserRouter>
 
 
-      <ProfileModal />
+
 
     <div className="container">
           <ul className='style-side-bar'>
