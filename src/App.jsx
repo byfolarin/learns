@@ -19,18 +19,14 @@ import ProfileModal from './components/Modals/ProfileModal';
 function App() {
 
   const [defaultImageSrc, setDefaultImageSrc] = useState([profile]);
-  const [modalstate, setModalState] = useState(false)
-
-  const ModalOpen = () =>{
-    
-  }
+  const [modalstate, setModalState] = useState(false);
+  
 
   return (
     <>
     <BrowserRouter>
 
 
-    <ProfileModal />
 
     <div className="container">
           <ul className='style-side-bar'>
