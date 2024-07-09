@@ -2,9 +2,9 @@ import React from 'react'
 
 const ProfileModal = ({isModalOpen,setisModalOpen}) => {
 
-  
+
   return (
-    <div className='modal'>
+    <div className='modal' >
       <div className="delete-modal">
         <h2 className='delete-Change'>Change Profile Photo</h2>
         <h3 className='delete-Upload post-photo'>Upload Photo</h3>

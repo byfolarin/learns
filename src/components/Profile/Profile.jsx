@@ -23,14 +23,11 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
   setisModalOpen(!isModalOpen)
  }
 
-
-
   return (
     <>
 
     <ProfileModal isModalOpen={isModalOpen} setisModalOpen={setisModalOpen} />
   
-
 
     <div className="container">
 
