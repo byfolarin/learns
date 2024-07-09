@@ -10,25 +10,37 @@ import Bio from '../Navigation/Bio'
 import EditProfile from './EditProfile'
 import ViewArchive from './ViewArchive'
 import AdTools from './AdTools'
+import ProfileModal from '../Modals/ProfileModal'
 
 
 
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
+ const [isModalOpen, setisModalOpen] = useState(false);
+
+ function handleClick (){
+  setisModalOpen(!isModalOpen)
+ }
+
 
 
   return (
     <>
+
+    <ProfileModal isModalOpen={isModalOpen} setisModalOpen={setisModalOpen} />
+  
+
+
     <div className="container">
 
       <div className="profile-container">
 
       <div className="profile-header-section">
 
-              
+                  <div className="modal-pop" onClick={handleClick}>
                   <ProfileImg defaultImageSrc ={defaultImageSrc} />
-                
+                  </div>
                   
 
                       <div className="top-nav-wrapper">
