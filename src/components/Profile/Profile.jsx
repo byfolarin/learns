@@ -15,11 +15,16 @@ import AdTools from './AdTools'
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
-   const [showModal, setShowModal] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-   const handleProfileClick = () => {
-    setShowModal(true);
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
   };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
 
   return (
     <>
@@ -29,7 +34,7 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
       <div className="profile-header-section">
 
-                  
+             
                   <ProfileImg defaultImageSrc ={defaultImageSrc} />
                   
 
