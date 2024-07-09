@@ -16,15 +16,6 @@ import ProfileModal from '../Modals/ProfileModal'
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleOpenModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
 
 
   return (
@@ -158,7 +149,7 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
                             
                                         </div>
           
-        <ProfileModal isOpen={isModalOpen} onClose={handleCloseModal}/>
+        
 
       <section className='section-posts'>
         
