@@ -15,10 +15,11 @@ import AdTools from './AdTools'
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
-    function handleChange(){
+   const [showModal, setShowModal] = useState(false);
 
-    }
-
+   const handleProfileClick = () => {
+    setShowModal(true);
+  };
 
   return (
     <>
@@ -28,9 +29,9 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
       <div className="profile-header-section">
 
-                  <div className="img-prof" onClick={handleChange}>
+                  
                   <ProfileImg defaultImageSrc ={defaultImageSrc} />
-                  </div>
+                  
 
                       <div className="top-nav-wrapper">
 
