@@ -19,15 +19,15 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleProfileClick = () => {
-    setIsModalOpen(true);
-  };
+          const handleProfileClick = () => {
+            setIsModalOpen(true);
+          };
 
-  const handleModalClose = () => {
-    setIsModalOpen(false);
-  };
-  return (
-    <>
+          const handleModalClose = () => {
+            setIsModalOpen(false);
+          };
+          return (
+            <>
 
 
     <div className="container">
