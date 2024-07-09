@@ -13,7 +13,6 @@ import AdTools from './AdTools'
 
 
 
-
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
     function handleChange(){
