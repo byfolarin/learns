@@ -29,8 +29,6 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
   return (
     <>
 
-   
-  
 
     <div className="container">
 
