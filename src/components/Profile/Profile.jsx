@@ -10,17 +10,13 @@ import Bio from '../Navigation/Bio'
 import EditProfile from './EditProfile'
 import ViewArchive from './ViewArchive'
 import AdTools from './AdTools'
-import ProfileModal from '../Modals/ProfileModal'
+
 
 
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
-  const [modalstate, setModalState] = useState(false)
 
-  const ModalOpen = () =>{
-    
-  }
 
   return (
     <>
@@ -30,9 +26,9 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
       <div className="profile-header-section">
 
-                  <div onClick={handleOpenModal}>
+              
                   <ProfileImg defaultImageSrc ={defaultImageSrc} />
-                  </div>
+                
                   
 
                       <div className="top-nav-wrapper">
