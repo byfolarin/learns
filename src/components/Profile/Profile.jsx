@@ -10,6 +10,7 @@ import Bio from '../Navigation/Bio'
 import EditProfile from './EditProfile'
 import ViewArchive from './ViewArchive'
 import AdTools from './AdTools'
+import ProfileModal from '../Modals/ProfileModal'
 
 
 
@@ -34,8 +35,9 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
       <div className="profile-header-section">
 
-             
+                  <div onClick={handleOpenModal}>
                   <ProfileImg defaultImageSrc ={defaultImageSrc} />
+                  </div>
                   
 
                       <div className="top-nav-wrapper">
@@ -156,7 +158,7 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
                             
                                         </div>
           
-
+        <ProfileModal isOpen={isModalOpen} onClose={handleCloseModal}/>
 
       <section className='section-posts'>
         
