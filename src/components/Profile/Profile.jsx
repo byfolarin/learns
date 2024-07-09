@@ -16,7 +16,11 @@ import ProfileModal from '../Modals/ProfileModal'
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
+  const [modalstate, setModalState] = useState(false)
 
+  const ModalOpen = () =>{
+    
+  }
 
   return (
     <>
