@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProfileModal = ({onClose}) => {
-
+    
 
   return (
     <div className='modal' >
