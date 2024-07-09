@@ -10,14 +10,14 @@ import Bio from '../Navigation/Bio'
 import EditProfile from './EditProfile'
 import ViewArchive from './ViewArchive'
 import AdTools from './AdTools'
-import ProfileModal from '../Modals/ProfileModal'
+
 
 
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
     function handleChange(){
-      
+
     }
 
 
