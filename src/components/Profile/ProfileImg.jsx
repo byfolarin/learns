@@ -16,8 +16,7 @@ const ProfileImg = ({defaultImageSrc}) => {
                     <div className="ring-wrap">
                         <div className="img-fit-container">
                         <div className="img-container-profile" >
-                        <img id="uploaded-image" src={defaultImageSrc} alt="Profile Image" className='img-img-profile' />
-                         <input type="file" id='image-upload'  accept="image/*"/>
+                        <img src={defaultImageSrc} className='img-img-profile' />
                         </div>
                         </div>
                     </div>
