@@ -1,10 +1,14 @@
 import React from 'react'
 
-const ProfileModal = ({onClose,imgSet}) => {
+const ProfileModal = ({onClose,imgSet,removeSet}) => {
 
   const fileChange = (e) =>{
    imgSet(URL.createObjectURL(e.target.files[0]))
    onClose()
+  }
+
+  const fileRemove = () =>{
+    imgSet(!removeSet)
   }
 
 
@@ -19,7 +23,7 @@ const ProfileModal = ({onClose,imgSet}) => {
         </label>
 
         
-        <h3 className='delete-Remove post-photo'>Remove Current Photo</h3>
+        <h3 className='delete-Remove post-photo' onClick={fileRemove}>Remove Current Photo</h3>
         <h3 className='delete-Cancel post-photo' onClick={onClose}> Cancel</h3>
       </div>
     </div>
