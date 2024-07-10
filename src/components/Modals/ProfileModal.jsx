@@ -2,17 +2,20 @@ import React, { useState } from 'react'
 
 const ProfileModal = ({onClose,imgSet,removeSet}) => {
 
-  const [imgChange, setImgChange] = useState(true)
+  const [imgChange, setImgChange] = useState(false)
 
 
-  const fileChange = (e) =>{
-   imgSet(URL.createObjectURL(e.target.files[0]))
-   onClose()
-  }
+          const fileChange = (e) =>{
+          imgSet(URL.createObjectURL(e.target.files[0]))
+          setImgChange(true)
+          onClose()
+          }
 
-  const fileRemove = () =>{
-    imgSet(!removeSet)
-  }
+          const fileRemove = () =>{ {
+              setImgChange(defaultImageUrl);
+              setImgChange(false);
+          
+          }
 
 
   return (
