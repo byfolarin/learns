@@ -9,7 +9,7 @@ const ProfileModal = ({onClose,imgSet,removeSet}) => {
           }
 
           const removeImg = () =>{
-            imgSet(removeSet)
+            return removeSet
           }
 
 
