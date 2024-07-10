@@ -35,11 +35,10 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
     {isModalOpen && <ProfileModal onClose={handleModalClose} />}
 
+
       <div className="profile-container">
-
       <div className="profile-header-section">
-
-                  <div className="modal-pop" onClick={handleProfileClick}>
+        <div className="modal-pop" onClick={handleProfileClick}>
                   <ProfileImg defaultImageSrc ={defaultImageSrc} />
                   </div>
 
