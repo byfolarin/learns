@@ -20,12 +20,13 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
           const handleProfileClick = () => {
-            setIsModalOpen(true);
+            setIsModalOpen(!isModalOpen);
           };
 
           const handleModalClose = () => {
             setIsModalOpen(false);
           };
+          
           return (
             <>
 
