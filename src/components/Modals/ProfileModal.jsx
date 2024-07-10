@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const ProfileModal = ({onClose,imgSet,removeSet}) => {
+
+  const [imgChange, setImgChange] = useState(true)
 
 
   const fileChange = (e) =>{
@@ -19,7 +21,7 @@ const ProfileModal = ({onClose,imgSet,removeSet}) => {
         <h2 className='delete-Change'>Change Profile Photo</h2>
 
 
-        <label htmlFor='upload-profile'  className='delete-Upload post-photo'>
+        <label htmlFor='upload-profile'  className='delete-Upload post-photo'>Upload Photo
           <input onChange={fileChange} type="file" id='upload-profile' />
         </label>
 
