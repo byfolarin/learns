@@ -34,7 +34,7 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
     <div className="container">
 
-    {isModalOpen && <ProfileModal onClose={handleModalClose} />}
+    {isModalOpen && <ProfileModal onClose={handleModalClose} imgSet={setDefaultImageSrc} />}
 
 
                       <div className="profile-container">

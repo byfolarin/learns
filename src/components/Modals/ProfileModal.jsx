@@ -1,6 +1,11 @@
 import React from 'react'
 
-const ProfileModal = ({onClose}) => {
+const ProfileModal = ({onClose,imgSet}) => {
+
+  const fileChange = (e) =>{
+   imgSet(URL.createObjectURL(e.target.files[0]))
+   onClose()
+  }
 
 
   return (
@@ -9,8 +14,8 @@ const ProfileModal = ({onClose}) => {
         <h2 className='delete-Change'>Change Profile Photo</h2>
 
 
-        <label htmlFor='upload-profile' className='delete-Upload post-photo'>Upload Photo
-          <input type="file" id='upload-profile' />
+        <label htmlFor='upload-profile'  className='delete-Upload post-photo'>Upload Photo
+          <input onChange={fileChange} type="file" id='upload-profile' />
         </label>
 
         
