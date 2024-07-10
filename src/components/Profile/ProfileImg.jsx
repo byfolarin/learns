@@ -16,7 +16,7 @@ const ProfileImg = ({defaultImageSrc}) => {
                     <div className="ring-wrap">
                         <div className="img-fit-container">
                         <div className="img-container-profile" >
-                        <img src={defaultImageSrc} className='img-img-profile' />
+                           <img src={defaultImageSrc} className='img-img-profile' />
                         </div>
                         </div>
                     </div>

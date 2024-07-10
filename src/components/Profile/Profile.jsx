@@ -17,7 +17,7 @@ import ProfileModal from '../Modals/ProfileModal'
 
 const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
+         const [isModalOpen, setIsModalOpen] = useState(false);
 
           const handleProfileClick = () => {
             setIsModalOpen(!isModalOpen);
@@ -27,6 +27,7 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
             setIsModalOpen(false);
           };
           
+
           return (
             <>
 
@@ -36,11 +37,11 @@ const Profile = ({defaultImageSrc, setDefaultImageSrc}) => {
     {isModalOpen && <ProfileModal onClose={handleModalClose} />}
 
 
-      <div className="profile-container">
-      <div className="profile-header-section">
-        <div className="modal-pop" onClick={handleProfileClick}>
-                  <ProfileImg defaultImageSrc ={defaultImageSrc} />
-                  </div>
+                      <div className="profile-container">
+                      <div className="profile-header-section">
+                      <div className="modal-pop" onClick={handleProfileClick}>
+                      <ProfileImg defaultImageSrc ={defaultImageSrc} />
+                      </div>
 
                 
                   

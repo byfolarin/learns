@@ -19,6 +19,7 @@ import ProfileModal from './components/Modals/ProfileModal';
 function App() {
 
   const [defaultImageSrc, setDefaultImageSrc] = useState([profile]);
+  
   const [modalstate, setModalState] = useState(false);
   
 
