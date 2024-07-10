@@ -3,18 +3,15 @@ import React from 'react'
 const ProfileModal = ({onClose,imgSet,removeSet}) => {
 
 
-      const [isImageChanged, setIsImageChanged] = useState(false);
+  const fileChange = (e) =>{
+   imgSet(URL.createObjectURL(e.target.files[0]))
+   onClose()
+  }
 
-        const fileChange = (e) =>{
-        imgSet(URL.createObjectURL(e.target.files[0]))
-        onClose()
-        setIsImageChanged(true)
-        }
+  const fileRemove = () =>{
+    imgSet(!removeSet)
+  }
 
-        const handleImageReset = () => {
-          setImageUrl(defaultImageUrl);
-          setIsImageChanged(false);
-        };
 
   return (
     <div className='modal' >
@@ -27,7 +24,7 @@ const ProfileModal = ({onClose,imgSet,removeSet}) => {
         </label>
 
         
-        <h3 className='delete-Remove post-photo' onClick={handleImageReset}>Remove Current Photo</h3>
+        <h3 className='delete-Remove post-photo' onClick={fileRemove}>Remove Current Photo</h3>
         <h3 className='delete-Cancel post-photo' onClick={onClose}> Cancel</h3>
       </div>
     </div>
