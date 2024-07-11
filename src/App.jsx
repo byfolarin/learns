@@ -13,7 +13,7 @@ import MoreIcon from './assets/MoreIcon';
 import SideBarProfile from './components/Profile/SideBarProfile';
 import { useState } from 'react';
 import profile from './components/Profile/GM2_KvuXMAE-ZRk.jpeg'
-
+import CreateModal from './components/Modals/CreateModal';
 
 
 function App() {
@@ -89,8 +89,10 @@ function App() {
                     <div className="homelogo">
                           <CreateIcon/>
                           </div>
-                    Create</Link>
+                          Create</Link>              
                   </li>
+
+                  <CreateModal/>
 
 
                   <li className='side--bar-list-items'>
