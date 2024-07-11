@@ -14,6 +14,7 @@ const ProfileModal = ({onClose,imgSet,removeSet}) => {
     };
 
     reader.readAsDataURL(file);
+    onClose();
   };
 
   const handleImageReset = () => {
