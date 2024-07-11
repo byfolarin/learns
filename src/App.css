@@ -360,19 +360,22 @@ border-top: 1px solid rgb(53, 53, 53);
 
 .modal-create{
   display: flex;
+  border-radius: 8px;
   flex-direction: column;
-  gap: 16px;
-  padding: 16px;
+  padding: 8px;
+  background-color: #252525;
 }
 
 .create-new-post{
+  background: none;
   display: flex;
-  gap: 8px;
+  padding: 8px;
 }
 
 .create-new-live{
+  background: none;
+  padding: 8px;
   display: flex;
-  gap: 8px;
 }
 
 .create-new-post:hover{

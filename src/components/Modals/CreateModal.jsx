@@ -12,11 +12,12 @@ const CreateModal = () => {
             </div>
             Posts
       </div>
+      
 
       <div className="create-new-live">
         <div className="icon-create">
-            <LiveCreate/>
-            </div>
+        <LiveCreate/>
+        </div>
             Live
         </div>
     </div>
