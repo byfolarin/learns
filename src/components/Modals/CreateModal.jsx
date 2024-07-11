@@ -6,15 +6,18 @@ const CreateModal = () => {
   return (
     <div className='modal-create'>
       <div className="create-new-post">
-        Posts
-        <div className="icon-create">
+      <div className="icon-create">
         <PostLiveCreate/>
         </div>
+        Posts
       </div>
 
-      <div className="create-new-live">Live<div className="icon-create">
-                          <LiveCreate/>
-                    </div></div>
+      <div className="create-new-live">
+      <div className="icon-create">
+        <LiveCreate/>
+        </div>
+        Live
+      </div>
     </div>
   )
 }
