@@ -28,7 +28,7 @@ const ProfileModal = ({onClose,imgSet,removeSet}) => {
         </label>
 
         
-        <h3 className='delete-Remove post-photo' >Remove Current Photo</h3>
+         <h3 className='delete-Remove post-photo' >Remove Current Photo</h3>
         <h3 className='delete-Cancel post-photo' onClick={onClose}> Cancel</h3>
       </div>
     </div>
