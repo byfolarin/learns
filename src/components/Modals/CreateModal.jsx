@@ -5,19 +5,20 @@ import LiveCreate from '../../assets/LiveCreate'
 const CreateModal = () => {
   return (
     <div className='modal-create'>
+
       <div className="create-new-post">
-      <div className="icon-create">
-        <PostLiveCreate/>
-        </div>
-        Posts
+        <div className="icon-create">
+            <PostLiveCreate/>
+            </div>
+            Posts
       </div>
 
       <div className="create-new-live">
-      <div className="icon-create">
-        <LiveCreate/>
+        <div className="icon-create">
+            <LiveCreate/>
+            </div>
+            Live
         </div>
-        Live
-      </div>
     </div>
   )
 }

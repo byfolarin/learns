@@ -361,7 +361,8 @@ border-top: 1px solid rgb(53, 53, 53);
 .modal-create{
   display: flex;
   flex-direction: column;
-  gap: 16px 24px;
+  gap: 16px;
+  padding: 16px;
 }
 
 .create-new-post{
@@ -372,4 +373,12 @@ border-top: 1px solid rgb(53, 53, 53);
 .create-new-live{
   display: flex;
   gap: 8px;
+}
+
+.create-new-post:hover{
+  background-color: red;
+}
+
+.create-new-live:hover{
+  background-color: red;
 }
