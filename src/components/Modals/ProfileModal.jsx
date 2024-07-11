@@ -2,15 +2,25 @@ import React, { useState } from 'react'
 
 const ProfileModal = ({onClose,imgSet,removeSet}) => { 
 
-          const fileChange = (e) =>{
-          imgSet(URL.createObjectURL(e.target.files[0]))
-          onClose()
-          }
+  const [isImageChanged, setIsImageChanged] = useState(false);
 
-          const handleImageReset = () => {
-            imgSet(removeSet)
-          };
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
 
+    reader.onload = (e) => {
+      imgSet(e.target.result);
+      setIsImageChanged(true);
+    };
+
+    reader.readAsDataURL(file);
+  };
+
+  const handleImageReset = () => {
+    imgSet(removeSet);
+    setIsImageChanged(false);
+    onClose();
+  };
 
   return (
     <div className='modal' >
@@ -19,7 +29,7 @@ const ProfileModal = ({onClose,imgSet,removeSet}) => {
 
 
         <label htmlFor='upload-profile'  className='delete-Upload post-photo'>Upload Photo
-          <input onChange={fileChange} type="file" id='upload-profile' />
+          <input onChange={handleFileChange} type="file" id='upload-profile' />
         </label>
 
         
