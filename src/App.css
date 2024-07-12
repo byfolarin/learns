@@ -374,16 +374,14 @@ border-top: 1px solid rgb(53, 53, 53);
 }
 
 .create-new-post{
-  background-color: #252525;
+  background-color: #282828;
   border-radius: 8px 8px 0 0;
 }
 
 .create-new-live{
-  background-color: #252525;
+  background-color: #282828;
   border-radius: 0 0 8px 8px;
 }
-
-
 
 .post-paddings{
   background: none;

@@ -20,6 +20,15 @@ function App() {
 
   const [defaultImageSrc, setDefaultImageSrc] = useState([profile]);
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleProfileClick = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+  };
   
 
   return (
@@ -85,14 +94,14 @@ function App() {
 
 
                   <li className='side--bar-list-items'>
-                    <Link to={"/"} className='icons-text'>
-                    <div className="homelogo">
+                    < div className='icons-text' onClick={handleProfileClick}>
+                    <div className="homelogo" >
                           <CreateIcon/>
                           </div>
-                          Create</Link>              
+                          Create </div>      
                   </li>
 
-                  <CreateModal/>
+                  {isModalOpen && <CreateModal/>}
 
 
                   <li className='side--bar-list-items'>
