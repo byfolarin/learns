@@ -22,12 +22,21 @@ const CreateModal = () => {
       </div>
 
       <div className="create-new-live">
-        <div className="text-wrap">
-        Live
-        </div>
-        <div className="icon-create">
-        <LiveCreate/>
-        </div>
+
+            <div className="post-paddings">
+
+                <div className="text-wrap">
+                Live
+                </div>
+
+
+                <div className="icon-create">
+                <LiveCreate/>
+                </div>
+
+            </div>
+
+
       </div>
 
     </div>
