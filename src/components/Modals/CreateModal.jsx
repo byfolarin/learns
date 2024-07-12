@@ -7,19 +7,29 @@ const CreateModal = () => {
     <div className='modal-create'>
 
       <div className="create-new-post">
-        <div className="icon-create">
-            <PostLiveCreate/>
-            </div>
-            Posts
+
+        <div className="post-paddings">
+
+                <div className="text-wrap">
+                      Post
+                </div>
+
+                <div className="icon-create">
+                <PostLiveCreate/>
+                </div>
+        </div>
+
       </div>
-      
 
       <div className="create-new-live">
+        <div className="text-wrap">
+        Live
+        </div>
         <div className="icon-create">
         <LiveCreate/>
         </div>
-            Live
-        </div>
+      </div>
+
     </div>
   )
 }
