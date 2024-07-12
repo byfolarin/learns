@@ -10,9 +10,9 @@ const CreateModal = () => {
 
         <div className="post-paddings">
 
-                <div className="text-wrap">
-                      Post
-                </div>
+                <label className="text-wrap">
+                     <input type="file" id='upload-profile' /> Post
+                </label>
 
                 <div className="icon-create">
                 <PostLiveCreate/>
