@@ -365,20 +365,11 @@ border-top: 1px solid rgb(53, 53, 53);
 
 .modal-create{
   display: flex;
-  border-radius: 8px;
   flex-direction: column;
-  padding: 8px;
   background-color: #252525;
   position: relative;
   z-index: 3;
-}
-
-
-
-.create-new-live{
-  background: none;
-  display: flex;
-  justify-content: space-between;
+  border-radius: 8px;
 }
 
 .post-paddings{
