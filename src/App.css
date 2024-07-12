@@ -8,6 +8,11 @@
   text-decoration: none;
 }
 
+svg{
+  fill: white;
+  background: none;
+}
+
 
 .container{
   display: flex;
@@ -399,10 +404,7 @@ border-top: 1px solid rgb(53, 53, 53);
   background: none;
 }
 
-.create-new-post:hover{
-  background-color: red;
+.icon-create{
+  background: none;
 }
 
-.create-new-live:hover{
-  background-color: red;
-}
