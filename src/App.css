@@ -363,22 +363,28 @@ border-top: 1px solid rgb(53, 53, 53);
   border-radius: 8px;
   flex-direction: column;
   padding: 8px;
-  background: none;
   background-color: #252525;
   position: relative;
   z-index: 3;
 }
 
-.create-new-post{
-  background: none;
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .create-new-live{
   background: none;
   display: flex;
   justify-content: space-between;
+}
+
+.post-paddings{
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #252525;
+}
+
+.post-paddings:hover{
+  background-color: red;
 }
 
 .create-new-post:hover{
