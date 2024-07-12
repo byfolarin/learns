@@ -370,13 +370,27 @@ border-top: 1px solid rgb(53, 53, 53);
   position: relative;
   z-index: 3;
   border-radius: 8px;
+  margin:  0px 4px;
 }
+
+.create-new-post{
+  background-color: #252525;
+  border-radius: 8px 8px 0 0;
+}
+
+.create-new-live{
+  background-color: #252525;
+  border-radius: 0 0 8px 8px;
+}
+
+
 
 .post-paddings{
   background: none;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: #252525;
+ 
   padding: 8px ;
 }
 
@@ -384,9 +398,16 @@ border-top: 1px solid rgb(53, 53, 53);
   color: white;
 }
 
-.post-paddings:hover{
-  background-color: red;
+.create-new-post:hover{
+  background-color: #3c3c3c;
+  border-radius: 8px 8px 0 0;
 }
+
+.create-new-live:hover{
+  background-color: #3c3c3c;
+  border-radius: 0 0 8px 8px;
+}
+
 
 .fill-rule{
   fill: white;
