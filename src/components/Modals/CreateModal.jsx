@@ -10,7 +10,7 @@ const CreateModal = () => {
 
         <div className="post-paddings">
 
-                <label className="text-wrap">
+                <label htmlFor='upload-profile' className="text-wrap">
                      <input type="file" id='upload-profile' /> Post
                 </label>
 

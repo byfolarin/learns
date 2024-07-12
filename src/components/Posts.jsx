@@ -10,12 +10,6 @@ const Posts = () => {
 
 
 
-  // //I want the when i click on the create img, 
-  // it should show me a pop out then when i click
-  //  post it should post it on the main page// 
-
-
-
   return (
     <div>
          <div className="profile-gallery">
