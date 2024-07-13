@@ -6,17 +6,17 @@ import img3 from '../assets/images/cards.png'
 const Posts = () => {
 
 
-  const [postHold, setPostHold] =useState([])
+  // const [postHold, setPostHold] =useState([])
 
-  const imgArr = () =>{
+  // const imgArr = () =>{
     
-  }
+  // }
 
-  const todoItems = todos.map((todo, index) =>
-    <li key={index}>
-      {todo.text}
-    </li>
-  );
+  // const todoItems = todos.map((todo, index) =>
+  //   <li key={index}>
+  //     {todo.text}
+  //   </li>
+  // );
 
 
 

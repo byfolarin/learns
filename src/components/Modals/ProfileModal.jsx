@@ -1,27 +1,21 @@
 import React, { useState } from 'react'
 
-const ProfileModal = ({onClose,imgSet,removeSet}) => { 
+const ProfileModal = ({onClose,imgSet,removeSet}) => {
 
-  const [isImageChanged, setIsImageChanged] = useState(false);
+             const [isImageChanged, setIsImageChanged] = useState(false);
 
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    const reader = new FileReader();
+          const fileChange = (e) =>{
+          imgSet(URL.createObjectURL(e.target.files[0]))
+          setIsImageChanged(true);
+          onClose()
+          }
 
-    reader.onload = (e) => {
-      imgSet(e.target.result);
-      setIsImageChanged(true);
-    };
+          const handleImageReset = () => {
+            imgSet(removeSet)
+            onClose()
+            setIsImageChanged(false);
+          };
 
-    reader.readAsDataURL(file);
-    onClose();
-  };
-
-  const handleImageReset = () => {
-    imgSet(removeSet);
-    setIsImageChanged(false);
-    onClose();
-  };
 
   return (
     <div className='modal' >
@@ -30,11 +24,11 @@ const ProfileModal = ({onClose,imgSet,removeSet}) => {
 
 
         <label htmlFor='upload-profile'  className='delete-Upload post-photo'>Upload Photo
-          <input onChange={handleFileChange} type="file" id='upload-profile' />
+          <input onChange={fileChange} type="file" id='upload-profile' />
         </label>
 
         
-         <h3 className='delete-Remove post-photo' onClick={handleImageReset} >Remove Current Photo</h3>
+        <h3 className='delete-Remove post-photo' isImageChanged onClick={handleImageReset} >Remove Current Photo</h3>
         <h3 className='delete-Cancel post-photo' onClick={onClose}> Cancel</h3>
       </div>
     </div>

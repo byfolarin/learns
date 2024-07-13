@@ -1,8 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PostLiveCreate from '../../assets/PostLiveCreate'
 import LiveCreate from '../../assets/LiveCreate'
 
 const CreateModal = () => {
+
+const [] = useState([])
+
+
+
+const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+
+    reader.onload = (e) => {
+      imgSet(e.target.result);
+      setIsImageChanged(true);
+    };
+
+    reader.readAsDataURL(file);
+    onClose();
+  };
+
+  const handleImageReset = () => {
+    imgSet(removeSet);
+    setIsImageChanged(false);
+    onClose();
+  };
+
+
   return (
     <div className='modal-create'>
 
