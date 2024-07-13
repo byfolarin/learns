@@ -8,6 +8,10 @@ const Posts = () => {
 
   const [postHold, setPostHold] =useState([])
 
+  const imgArr = () =>{
+    
+  }
+
 
 
   return (
