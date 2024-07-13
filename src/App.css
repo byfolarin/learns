@@ -373,6 +373,10 @@ border-top: 1px solid rgb(53, 53, 53);
   margin:  0px 4px;
 }
 
+li{
+  list-style-type: none;
+}
+
 .create-new-post{
   background-color: #282828;
   border-radius: 8px 8px 0 0;

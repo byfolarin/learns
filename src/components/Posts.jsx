@@ -18,9 +18,9 @@ const Posts = () => {
     <div>
          <div className="profile-gallery">
 
-              <div className="first-img">
-                <div className="img-container"><img src={img1} alt="" /></div>
-              </div>
+              <ul className="first-img">
+                <li className="img-container"><img src={img1} alt="" /></li>
+              </ul>
           
         </div>
      
