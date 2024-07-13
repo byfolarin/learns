@@ -12,6 +12,12 @@ const Posts = () => {
     
   }
 
+  const todoItems = todos.map((todo, index) =>
+    <li key={index}>
+      {todo.text}
+    </li>
+  );
+
 
 
   return (
