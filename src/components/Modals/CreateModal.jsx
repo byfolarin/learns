@@ -36,7 +36,7 @@ const handleFileChange = (e) => {
         <div className="post-paddings">
 
                 <label htmlFor='upload-profile' className="text-wrap">
-                     <input type="file" id='upload-profile' /> Post
+                     <input type="file" id='upload-profile' onClick={handleFileChange} /> Post
                 </label>
 
                 <div className="icon-create">
