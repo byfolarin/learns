@@ -4,24 +4,15 @@ import LiveCreate from '../../assets/LiveCreate'
 
 const CreateModal = () => {
 
-const [] = useState([])
+const [localImg, setLocalImg] = useState([])
 
 
 const [isImageChanged, setIsImageChanged] = useState(false);
 
 const fileChange = (e) =>{
-imgSet(URL.createObjectURL(e.target.files[0]))
+setLocalImg(URL.createObjectURL(e.target.files[0]))
 setIsImageChanged(true);
-onClose()
 }
-
-const handleImageReset = () => {
-  imgSet(removeSet)
-  onClose()
-  setIsImageChanged(false);
-};
-
-
 
   return (
     <div className='modal-create'>
