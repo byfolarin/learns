@@ -51,7 +51,7 @@ setIsImageChanged(true);
       </div>
 
       
-    <Posts imgPost= {localImg} setimgPost={setLocalImg} />
+    <Posts imgPost= {localImg}/>
 
     </div>
   )
