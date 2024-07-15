@@ -21,11 +21,6 @@ const handleFileChange = (e) => {
     onClose();
   };
 
-  const handleImageReset = () => {
-    imgSet(removeSet);
-    setIsImageChanged(false);
-    onClose();
-  };
 
 
   return (
