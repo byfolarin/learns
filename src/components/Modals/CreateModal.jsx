@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import PostLiveCreate from '../../assets/PostLiveCreate'
 import LiveCreate from '../../assets/LiveCreate'
+import Posts from '../Posts'
 
 const CreateModal = () => {
 
@@ -48,6 +49,9 @@ setIsImageChanged(true);
 
 
       </div>
+
+      
+    <Posts imgPost= {localImg} setimgPost={setLocalImg} />
 
     </div>
   )
