@@ -6,7 +6,6 @@ const CreateModal = () => {
 
 const [localImg, setLocalImg] = useState([])
 
-
 const [isImageChanged, setIsImageChanged] = useState(false);
 
 const fileChange = (e) =>{
