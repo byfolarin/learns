@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const ProfileModal = ({onClose,imgSet,removeSet}) => {
 
-             const [isImageChanged, setIsImageChanged] = useState(false);
+          const [isImageChanged, setIsImageChanged] = useState(false);
 
           const fileChange = (e) =>{
           imgSet(URL.createObjectURL(e.target.files[0]))

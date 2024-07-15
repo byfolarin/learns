@@ -7,19 +7,19 @@ const CreateModal = () => {
 const [] = useState([])
 
 
+const [isImageChanged, setIsImageChanged] = useState(false);
 
-const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    const reader = new FileReader();
+const fileChange = (e) =>{
+imgSet(URL.createObjectURL(e.target.files[0]))
+setIsImageChanged(true);
+onClose()
+}
 
-    reader.onload = (e) => {
-      imgSet(e.target.result);
-      setIsImageChanged(true);
-    };
-
-    reader.readAsDataURL(file);
-    onClose();
-  };
+const handleImageReset = () => {
+  imgSet(removeSet)
+  onClose()
+  setIsImageChanged(false);
+};
 
 
 
@@ -31,7 +31,7 @@ const handleFileChange = (e) => {
         <div className="post-paddings">
 
                 <label htmlFor='upload-profile' className="text-wrap">
-                     <input type="file" id='upload-profile' onClick={handleFileChange} /> Post
+                     <input type="file" id='upload-profile' onClick={fileChange} /> Post
                 </label>
 
                 <div className="icon-create">
