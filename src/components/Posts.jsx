@@ -13,11 +13,13 @@ const Posts = (imgPost,setimgPost) => {
               </ul>
 
               <ul className="first-img">
-                <li className="img-container"><img src={imgPost} alt="" /></li>
+                <li className="img-container"><img src={img2} alt="" /></li>
+              </ul>
+
+              <ul className="first-img">
+                <li className="img-container"><img src={img3} alt="" /></li>
               </ul>
         </div>
-     
-
     </div>
   )
 }
