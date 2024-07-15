@@ -15,7 +15,6 @@ const Posts = (imgPost,setimgPost) => {
               <ul className="first-img">
                 <li className="img-container"><img src={imgPost} alt="" /></li>
               </ul>
-          
         </div>
      
 
