@@ -19,10 +19,10 @@ setIsImageChanged(true);
 
       <div className="create-new-post">
 
-        <div className="post-paddings" onClick={fileChange} >
+        <div className="post-paddings" >
 
                 <label htmlFor='upload-profile' className="text-wrap">
-                     <input type="file" id='upload-profile' /> Post
+                     <input type="file" onChange={fileChange} id='upload-profile' /> Post
                 </label>
 
                 <div className="icon-create">

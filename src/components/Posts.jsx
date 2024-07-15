@@ -4,8 +4,6 @@ import img2 from '../assets/images/Dashboard.png'
 import img3 from '../assets/images/cards.png'
 
 const Posts = (imgPost,setimgPost) => {
-
-
   return (
     <div>
          <div className="profile-gallery">
@@ -15,7 +13,7 @@ const Posts = (imgPost,setimgPost) => {
               </ul>
 
               <ul className="first-img">
-                <li className="img-container"><img src={img1} alt="" /></li>
+                <li className="img-container"><img src={imgPost} alt="" /></li>
               </ul>
           
         </div>
