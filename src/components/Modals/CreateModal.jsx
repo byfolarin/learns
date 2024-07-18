@@ -5,9 +5,9 @@ import Posts from '../Posts'
 
 const CreateModal = () => {
 
-// const [localImg, setLocalImg] = useState([])
+const [localImg, setLocalImg] = useState([])
 
-// const [isImageChanged, setIsImageChanged] = useState(false);
+const [isImageChanged, setIsImageChanged] = useState(false);
 
 // const fileChange = (e) =>{
 // setLocalImg(URL.createObjectURL(e.target.files[0]))
