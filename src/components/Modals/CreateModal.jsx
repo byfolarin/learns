@@ -22,7 +22,7 @@ setIsImageChanged(true);
         <div className="post-paddings" >
 
                 <label htmlFor='upload-profile' className="text-wrap">
-                     <input type="file" onChange={fileChange} id='upload-profile' /> Post
+                     <input type="file" onChange={fileChange} id='upload-profile' /> Post Live Video
                 </label>
 
                 <div className="icon-create">
