@@ -37,7 +37,7 @@ setIsImageChanged(true);
             <div className="post-paddings">
 
                 <div className="text-wrap">
-                Live Create
+                Live Create Video
                 </div>
 
 
