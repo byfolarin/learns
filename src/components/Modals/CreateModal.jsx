@@ -9,10 +9,10 @@ const [localImg, setLocalImg] = useState([])
 
 const [isImageChanged, setIsImageChanged] = useState(false);
 
-// const fileChange = (e) =>{
-// setLocalImg(URL.createObjectURL(e.target.files[0]))
-// setIsImageChanged(true);
-// }
+const fileChange = (e) =>{
+setLocalImg(URL.createObjectURL(e.target.files[0]))
+setIsImageChanged(true);
+}
 
   return (
     <div className='modal-create'>
